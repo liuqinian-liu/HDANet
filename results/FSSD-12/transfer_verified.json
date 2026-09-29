@@ -1,0 +1,29 @@
+{
+  "status": "verified",
+  "dataset": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12",
+  "shot": 1,
+  "verified_gpu_file_count": 17,
+  "omitted_full_optimizer_checkpoints": [],
+  "folds": [
+    {
+      "fold": 0,
+      "best_epoch_index": 104,
+      "best_class_mIoU": 0.7207,
+      "peak_FB_IoU": 0.844801
+    },
+    {
+      "fold": 1,
+      "best_epoch_index": 20,
+      "best_class_mIoU": 0.7458,
+      "peak_FB_IoU": 0.816786
+    },
+    {
+      "fold": 2,
+      "best_epoch_index": 233,
+      "best_class_mIoU": 0.6503,
+      "peak_FB_IoU": 0.814301
+    }
+  ],
+  "mean_best_class_mIoU": 0.7056,
+  "mean_peak_FB_IoU": 0.825296
+}

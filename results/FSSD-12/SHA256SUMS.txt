@@ -1,0 +1,5 @@
+71af52746cdc9e7ce4363af631c635a50fe9169e3b97db6e6dfb92cea52e8f69  fssd12-fold0-epoch104-full.pth
+17d5b3dabde4e0c69791db2baefc4aa94e10b9ec9c7724b4688a6ce68c1ff5ef  fssd12-fold1-epoch20-full.pth
+000d07f1dd46538129d4a43bb10a4e007ef045943b8ee1d21e9bb289e37bbe86  fssd12-fold1-epoch20-model-only.pth
+e2b8cd9cef73891194f1d6491588a3469e5d9343f088573cbffe23337f8467a6  fssd12-fold2-epoch233-full.pth
+6b1147bc55e786aa0cbb8210a2fa8e09fc6023a7e7423dba7f5955f21aef8fc2  fssd12-fold2-epoch233-model-only.pth
