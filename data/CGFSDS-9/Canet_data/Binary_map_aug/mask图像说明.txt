@@ -1,0 +1,1 @@
+根据Binary_map_aug，应当使用SSD-T-V5，mask值为255；
