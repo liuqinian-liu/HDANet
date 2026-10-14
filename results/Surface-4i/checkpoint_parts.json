@@ -1,0 +1,86 @@
+{
+  "dataset": "Surface-4i",
+  "files": [
+    {
+      "path": "fold0/artifacts/train_epoch_155_0.5381881262711985.pth",
+      "size": 257064366,
+      "sha256": "2963a44558920651dcd95c3955ca4f269506e982995e8c1e50ed784b232346d9",
+      "parts": [
+        {
+          "name": "surface4i-fold0-train_epoch_155_0.5381881262711985.pth.part01",
+          "size": 67108864,
+          "sha256": "51289510a0472c188a4119132ea1d721efbd61e54e7f9426396a5edaacd34fec"
+        },
+        {
+          "name": "surface4i-fold0-train_epoch_155_0.5381881262711985.pth.part02",
+          "size": 67108864,
+          "sha256": "e30db50fbdd537e5078b28b020dbe7af6f6b0ef7cc775aa7563b1e3a8abdafd8"
+        },
+        {
+          "name": "surface4i-fold0-train_epoch_155_0.5381881262711985.pth.part03",
+          "size": 67108864,
+          "sha256": "a60fc58322ea95c6c34a650d0a426decaded95d40d2ba2bb4c963ec43f3e254c"
+        },
+        {
+          "name": "surface4i-fold0-train_epoch_155_0.5381881262711985.pth.part04",
+          "size": 55737774,
+          "sha256": "a784411a0637de6820746413b836c1b5a9c51b7e9d16ac10e0f3794408e383e7"
+        }
+      ]
+    },
+    {
+      "path": "fold1/artifacts/train_epoch_38_0.420111278585039.pth",
+      "size": 257063174,
+      "sha256": "45c392144226a8bf23e492ada588fd02cc7ea8d823c3f279dd8e852b004acefc",
+      "parts": [
+        {
+          "name": "surface4i-fold1-train_epoch_38_0.420111278585039.pth.part01",
+          "size": 67108864,
+          "sha256": "3dc18b34c0f893b96550353c203b67ac7f0fe8b75abec588085842ef4b3a9b5f"
+        },
+        {
+          "name": "surface4i-fold1-train_epoch_38_0.420111278585039.pth.part02",
+          "size": 67108864,
+          "sha256": "7f0d8104a2a26161fb88bc5595c1813c2c20ea5b512b694e0ed84ce57279637d"
+        },
+        {
+          "name": "surface4i-fold1-train_epoch_38_0.420111278585039.pth.part03",
+          "size": 67108864,
+          "sha256": "aa4e926a6ee3670c227dec2abcd87ac6795cd2bcc12a5001fb61931fcd8bffa4"
+        },
+        {
+          "name": "surface4i-fold1-train_epoch_38_0.420111278585039.pth.part04",
+          "size": 55736582,
+          "sha256": "4e26516cdd047e4a5ad792a050c8cb13f5fecd34b9e1f3e30626963363acd880"
+        }
+      ]
+    },
+    {
+      "path": "fold2/artifacts/train_epoch_26_0.382028924898798.pth",
+      "size": 257063174,
+      "sha256": "31bc4955833fb4986db0679eb6a0e4bc09ccda76866230a3ae364f856b0b19e0",
+      "parts": [
+        {
+          "name": "surface4i-fold2-train_epoch_26_0.382028924898798.pth.part01",
+          "size": 67108864,
+          "sha256": "c35fac366ab6ce4e0ce2db53f70594ef6aae87206a58e6c5b624b5d30de59bcb"
+        },
+        {
+          "name": "surface4i-fold2-train_epoch_26_0.382028924898798.pth.part02",
+          "size": 67108864,
+          "sha256": "d38fb61a52448d407068977a19a3f03558968deb380004bec0493ed1a780a037"
+        },
+        {
+          "name": "surface4i-fold2-train_epoch_26_0.382028924898798.pth.part03",
+          "size": 67108864,
+          "sha256": "317ba80aee39f898b2cd31bc5c15177792f241f843e18f82528387c20cf6c95e"
+        },
+        {
+          "name": "surface4i-fold2-train_epoch_26_0.382028924898798.pth.part04",
+          "size": 55736582,
+          "sha256": "60822b62f346f266c1d7701c4f811e34d7c0c666ae57b7fbde7aff46b80b9e28"
+        }
+      ]
+    }
+  ]
+}

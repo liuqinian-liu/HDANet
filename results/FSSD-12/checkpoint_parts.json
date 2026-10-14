@@ -1,0 +1,86 @@
+{
+  "dataset": "FSSD-12",
+  "files": [
+    {
+      "path": "fold0/artifacts/train_epoch_133_0.7254011696794718.pth",
+      "size": 220772938,
+      "sha256": "70c420b430c16c0ff85e8f1bf8bd45e09525d7fcde9cc6faaf3dd65d97231e60",
+      "parts": [
+        {
+          "name": "fssd12-fold0-train_epoch_133_0.7254011696794718.pth.part01",
+          "size": 67108864,
+          "sha256": "51bd0e8f91f998424bbe5fd2941accfb7c16b585547077ddd619b642a2fd05af"
+        },
+        {
+          "name": "fssd12-fold0-train_epoch_133_0.7254011696794718.pth.part02",
+          "size": 67108864,
+          "sha256": "e4180ebeab307ce43529edf019955758e9df45944d7e94581d9e664a39da38b6"
+        },
+        {
+          "name": "fssd12-fold0-train_epoch_133_0.7254011696794718.pth.part03",
+          "size": 67108864,
+          "sha256": "0514d66e232940cd72dd98ecb3d7eb1a101468dedcca8bc17bcf9642782d2244"
+        },
+        {
+          "name": "fssd12-fold0-train_epoch_133_0.7254011696794718.pth.part04",
+          "size": 19446346,
+          "sha256": "fa08322ca99200331bc496aab3fffe885215d38b8d40163e1cd3bac2822d2bc0"
+        }
+      ]
+    },
+    {
+      "path": "fold1/artifacts/train_epoch_141_0.7273297175705078.pth",
+      "size": 257064366,
+      "sha256": "993dfce9a079ea8ab1a5c9d43926c82c8c543c84fff7767f54f7a5546a4fd4e6",
+      "parts": [
+        {
+          "name": "fssd12-fold1-train_epoch_141_0.7273297175705078.pth.part01",
+          "size": 67108864,
+          "sha256": "1210aab669a118422e8f45e5af472ac84bc34d06583bb6a99c4bb9341c3f04a7"
+        },
+        {
+          "name": "fssd12-fold1-train_epoch_141_0.7273297175705078.pth.part02",
+          "size": 67108864,
+          "sha256": "e3f23000ce5021921dc6dc592216364b4b229c4ea23de98d60ca643adfb6a1c6"
+        },
+        {
+          "name": "fssd12-fold1-train_epoch_141_0.7273297175705078.pth.part03",
+          "size": 67108864,
+          "sha256": "8c17c08af9c4ff1e13422578f4b4186e8182f1f2957bc3bbed6c6b04deee7553"
+        },
+        {
+          "name": "fssd12-fold1-train_epoch_141_0.7273297175705078.pth.part04",
+          "size": 55737774,
+          "sha256": "d708c5230b9db6d50e2edb053e6fa41548aa9dfa1b6c288f79b50d741c5733bd"
+        }
+      ]
+    },
+    {
+      "path": "fold2/artifacts/train_epoch_246_0.6395199550914741.pth",
+      "size": 257064366,
+      "sha256": "7387c722dd1386706e230dc39de070aa0dd5a6740487fccedb42096336bd9a29",
+      "parts": [
+        {
+          "name": "fssd12-fold2-train_epoch_246_0.6395199550914741.pth.part01",
+          "size": 67108864,
+          "sha256": "d502df2eea15091c27633d7c2e9411541b0630648f7dc29d7bcd6726a15a9870"
+        },
+        {
+          "name": "fssd12-fold2-train_epoch_246_0.6395199550914741.pth.part02",
+          "size": 67108864,
+          "sha256": "047d4000ce09dbe931d53e8116a44c49fad74df7eb7f132e505e2d81b02344f2"
+        },
+        {
+          "name": "fssd12-fold2-train_epoch_246_0.6395199550914741.pth.part03",
+          "size": 67108864,
+          "sha256": "4b4f5b365d1db480204ec043cb1c20bbf3b7866efac208d2b52c4adec364c241"
+        },
+        {
+          "name": "fssd12-fold2-train_epoch_246_0.6395199550914741.pth.part04",
+          "size": 55737774,
+          "sha256": "b546d5dce7c7047de3711bf58397c444f79556fd829542b6316d4bf70ce3365b"
+        }
+      ]
+    }
+  ]
+}
