@@ -1,0 +1,36 @@
+{
+  "run_root": "/hy-tmp/lx/surface4i_source_repeat_20261002_0940",
+  "jobs": [
+    {
+      "job": "fold0",
+      "model": "HDANet",
+      "lr": 0.001,
+      "batch_size": 4,
+      "epochs": 200,
+      "seed": 200
+    },
+    {
+      "job": "fold1",
+      "model": "HDANet",
+      "lr": 0.001,
+      "batch_size": 4,
+      "epochs": 200,
+      "seed": 200
+    },
+    {
+      "job": "fold2",
+      "model": "HDANet",
+      "lr": 0.0025,
+      "batch_size": 4,
+      "epochs": 200,
+      "seed": 200
+    }
+  ],
+  "mask_pairs_checked": 1683,
+  "torch": "2.2.1+cu121",
+  "gpus": [
+    "NVIDIA GeForce RTX 3090",
+    "NVIDIA GeForce RTX 3090"
+  ],
+  "status": "passed"
+}

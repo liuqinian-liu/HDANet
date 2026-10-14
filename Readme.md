@@ -2,7 +2,8 @@ Please refer to our latest work.
 Details of the model training and testing procedures can be found in our previous work.
 ^v^
 
-FSSD-12 1-shot three-fold validation results, logs, and checkpoints: [results/FSSD-12](./results/FSSD-12/README.md).
+FSSD-12 1-shot source-parameter rerun: [results/FSSD-12](./results/FSSD-12/README.md).
+Surface-4i 1-shot source-parameter rerun: [results/Surface-4i](./results/Surface-4i/README.md).
 
 @article{CPANet,
   title = {Cross Position Aggregation Network for Few-Shot Strip Steel Surface Defect Segmentation},

@@ -1,0 +1,30 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "best_epoch_zero_based": 155,
+      "class_miou": 0.5381881262711985,
+      "paired_fbiou": 0.6145,
+      "peak_fbiou": 0.633501
+    },
+    {
+      "fold": 1,
+      "best_epoch_zero_based": 38,
+      "class_miou": 0.420111278585039,
+      "paired_fbiou": 0.6753,
+      "peak_fbiou": 0.675347
+    },
+    {
+      "fold": 2,
+      "best_epoch_zero_based": 26,
+      "class_miou": 0.382028924898798,
+      "paired_fbiou": 0.5528,
+      "peak_fbiou": 0.567886
+    }
+  ],
+  "mean": {
+    "class_miou": 0.44677610991834515,
+    "paired_fbiou": 0.6142,
+    "peak_fbiou": 0.625578
+  }
+}

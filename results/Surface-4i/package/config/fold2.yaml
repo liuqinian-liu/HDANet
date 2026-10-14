@@ -1,0 +1,63 @@
+DATA:
+  data_root: /hy-tmp/ljh/Dataset/HDANet/Surface Defects-4i
+  train_list: /hy-tmp/lx/surface4i_source_repeat_20261002_0940/code/data_list/defect_msd/train/fold2_defect.txt
+  val_list: /hy-tmp/lx/surface4i_source_repeat_20261002_0940/code/data_list/defect_msd/val/fold2_defect.txt
+  classes: 2
+  data_set: msd
+TRAIN:
+  layers: 50
+  sync_bn: false
+  train_h: 200
+  train_w: 200
+  val_size: 200
+  scale_min: 0.9
+  scale_max: 1.1
+  rotate_min: -10
+  rotate_max: 10
+  zoom_factor: 8
+  ignore_label: 255
+  padding_label: 255
+  aux_weight: 1.0
+  train_gpu:
+  - 0
+  workers: 8
+  batch_size: 4
+  batch_size_val: 1
+  base_lr: 0.0025
+  epochs: 200
+  start_epoch: 0
+  power: 0.9
+  momentum: 0.9
+  weight_decay: 0.0001
+  manual_seed: 200
+  print_freq: 5
+  save_freq: 20
+  save_path: /hy-tmp/lx/surface4i_source_repeat_20261002_0940/fold2/artifacts
+  weight: null
+  resume: null
+  evaluate: true
+  split: 2
+  shot: 1
+  vgg: false
+  ppm_scales:
+  - 60
+  - 30
+  - 15
+  - 8
+  fix_random_seed_val: true
+  warmup: false
+  use_coco: false
+  use_split_coco: false
+  resized_val: true
+  ori_resize: true
+  bgpro_num: 2
+Distributed:
+  dist_url: tcp://127.0.0.1:6789
+  dist_backend: nccl
+  multiprocessing_distributed: false
+  world_size: 1
+  rank: 0
+  use_apex: false
+  opt_level: O0
+  keep_batchnorm_fp32: null
+  loss_scale: null

@@ -1,29 +1,70 @@
 {
   "status": "verified",
-  "dataset": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12",
-  "shot": 1,
-  "verified_gpu_file_count": 17,
-  "omitted_full_optimizer_checkpoints": [],
-  "folds": [
+  "files": [
     {
-      "fold": 0,
-      "best_epoch_index": 104,
-      "best_class_mIoU": 0.7207,
-      "peak_FB_IoU": 0.844801
+      "path": "driver.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "fold": 1,
-      "best_epoch_index": 20,
-      "best_class_mIoU": 0.7458,
-      "peak_FB_IoU": 0.816786
+      "path": "fold0/artifacts/events.out.tfevents.1790903272.I2b4bdc63b900601797",
+      "size": 9061057,
+      "sha256": "006caf690c34d4f2f879cc7e900c79d0ba2948796165484c8c369cb74961bd61"
     },
     {
-      "fold": 2,
-      "best_epoch_index": 233,
-      "best_class_mIoU": 0.6503,
-      "peak_FB_IoU": 0.814301
+      "path": "fold0/artifacts/train_epoch_133_0.7254011696794718.pth",
+      "size": 220772938,
+      "sha256": "70c420b430c16c0ff85e8f1bf8bd45e09525d7fcde9cc6faaf3dd65d97231e60"
+    },
+    {
+      "path": "fold1/artifacts/events.out.tfevents.1790908922.I2b4bdc63b900601797",
+      "size": 9061057,
+      "sha256": "62b2c1eb50ce25ef74d2247239f9142a9700c7f3adc770ee62e3b60c3667a2ce"
+    },
+    {
+      "path": "fold1/artifacts/train_epoch_141_0.7273297175705078.pth",
+      "size": 257064366,
+      "sha256": "993dfce9a079ea8ab1a5c9d43926c82c8c543c84fff7767f54f7a5546a4fd4e6"
+    },
+    {
+      "path": "fold2/artifacts/events.out.tfevents.1790915343.I2b4bdc63b900601797",
+      "size": 6845157,
+      "sha256": "d7b013986f1758b52fdf8347e439de58a6ca3df4dbd43865b06d0d31b8504c78"
+    },
+    {
+      "path": "fold2/artifacts/train_epoch_246_0.6395199550914741.pth",
+      "size": 257064366,
+      "sha256": "7387c722dd1386706e230dc39de070aa0dd5a6740487fccedb42096336bd9a29"
+    },
+    {
+      "path": "logs/fold0.log",
+      "size": 2125280,
+      "sha256": "a7b69836770accd9891e24a41bbfcac886c73fae3408e7e63bfd43311ab8cd90"
+    },
+    {
+      "path": "logs/fold1.log",
+      "size": 869530,
+      "sha256": "a9f22d32e7400098d48fdc0935575aa536493a320e0ca53c5ffe6d1876efd8be"
+    },
+    {
+      "path": "logs/fold2.log",
+      "size": 2119892,
+      "sha256": "3fe4d367b132fe949faf536784a63c053ba9d12383cb18dfd4fc8f8ac80557ee"
+    },
+    {
+      "path": "preflight.json",
+      "size": 676,
+      "sha256": "0c8554b1341cf86d58473fde3255af01f0584f0fe40c159eb6b9c7720055d28f"
+    },
+    {
+      "path": "run_manifest.json",
+      "size": 10626,
+      "sha256": "c5a404192e39cb81dd192632ea8b0529db89b58dbc571025220fcbe232a1e954"
+    },
+    {
+      "path": "status.json",
+      "size": 825,
+      "sha256": "42f13a664f509c281e50b3e00d5cef962edb4262de75d977679ec1d6fe357ce1"
     }
-  ],
-  "mean_best_class_mIoU": 0.7056,
-  "mean_peak_FB_IoU": 0.825296
+  ]
 }

@@ -1,0 +1,70 @@
+{
+  "status": "verified",
+  "files": [
+    {
+      "path": "driver.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "fold0/artifacts/events.out.tfevents.1790904347.I2b4bdc63b900601797",
+      "size": 4269857,
+      "sha256": "0d36f3cc847000aeb0d171f498517c1010e2354e2c13c6e6f47ea131272aacfe"
+    },
+    {
+      "path": "fold0/artifacts/train_epoch_155_0.5381881262711985.pth",
+      "size": 257064366,
+      "sha256": "2963a44558920651dcd95c3955ca4f269506e982995e8c1e50ed784b232346d9"
+    },
+    {
+      "path": "fold1/artifacts/events.out.tfevents.1790910937.I2b4bdc63b900601797",
+      "size": 3863057,
+      "sha256": "8900c6fe30d84097a6353cdac006b3727c2602a2c6979fe609f64bcf27c68e64"
+    },
+    {
+      "path": "fold1/artifacts/train_epoch_38_0.420111278585039.pth",
+      "size": 257063174,
+      "sha256": "45c392144226a8bf23e492ada588fd02cc7ea8d823c3f279dd8e852b004acefc"
+    },
+    {
+      "path": "fold2/artifacts/events.out.tfevents.1790917513.I2b4bdc63b900601797",
+      "size": 4541057,
+      "sha256": "5f2865bd11f7e092b58714fa1c6bf75a987966ded934f00a5c6e0dbae964fb2f"
+    },
+    {
+      "path": "fold2/artifacts/train_epoch_26_0.382028924898798.pth",
+      "size": 257063174,
+      "sha256": "31bc4955833fb4986db0679eb6a0e4bc09ccda76866230a3ae364f856b0b19e0"
+    },
+    {
+      "path": "logs/fold0.log",
+      "size": 1354338,
+      "sha256": "cbe2f813093eeb3b7083320f841cfda43e9614554a7bd51f6caf01175e5c2b75"
+    },
+    {
+      "path": "logs/fold1.log",
+      "size": 1294084,
+      "sha256": "556cf28290b51a55da52221886ec7a94f7d8e8df9a800b8be28dd8fd756ce058"
+    },
+    {
+      "path": "logs/fold2.log",
+      "size": 1424516,
+      "sha256": "79fa485f62fbcb81f26999135c448274e7e685b8f849743d68d5297c71566778"
+    },
+    {
+      "path": "preflight.json",
+      "size": 664,
+      "sha256": "d08a20fb3edb5b1bd14559b5c2057ffcaa88b97df009d75d9b18ae4d5878072b"
+    },
+    {
+      "path": "run_manifest.json",
+      "size": 11995,
+      "sha256": "d7b66280f831dfd3bcdf90b2d2e62f9399c9b223a3c1de8472e1e609d961d82c"
+    },
+    {
+      "path": "status.json",
+      "size": 828,
+      "sha256": "6b45d0177b92152be4fcb8bd10e154cc5dc9ad94796738b06a13d1014f9cd69e"
+    }
+  ]
+}

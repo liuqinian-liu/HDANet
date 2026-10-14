@@ -1,0 +1,36 @@
+{
+  "run_root": "/hy-tmp/lx/fssd12_source_repeat_20261002_0900",
+  "jobs": [
+    {
+      "job": "fold0",
+      "model": "HDANet_移除aspp",
+      "lr": 0.001,
+      "batch_size": 2,
+      "epochs": 200,
+      "seed": 2025
+    },
+    {
+      "job": "fold1",
+      "model": "HDANet",
+      "lr": 0.0025,
+      "batch_size": 2,
+      "epochs": 200,
+      "seed": 2025
+    },
+    {
+      "job": "fold2",
+      "model": "HDANet",
+      "lr": 0.0025,
+      "batch_size": 4,
+      "epochs": 300,
+      "seed": 2025
+    }
+  ],
+  "mask_pairs_checked": 1800,
+  "torch": "2.2.1+cu121",
+  "gpus": [
+    "NVIDIA GeForce RTX 3090",
+    "NVIDIA GeForce RTX 3090"
+  ],
+  "status": "passed"
+}
