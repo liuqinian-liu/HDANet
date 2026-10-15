@@ -1,0 +1,22 @@
+{
+  "arm": "B4_G1_fold2",
+  "state": "complete",
+  "fold": 2,
+  "shot": 1,
+  "seed": 2025,
+  "epochs": 300,
+  "batch_size": 4,
+  "base_lr": 0.0025,
+  "remove_aspp": false,
+  "csh_boundary_weight": 0.1,
+  "prior_type": "baseline",
+  "spatial_gate": true,
+  "fresh_start": true,
+  "common_initial_sha256": "398a342096e1d6d7725c167303fbf1969f0dcfcedb8e7cbb189c329dae653e17",
+  "val_inputs_sha256": "1a84107b7b6d75e9170045d04d7fd19ecf11030f7a46416a8640a0dd787a3d5a",
+  "train_list_sha256": "e104f03458e7a4fb8ea05288c4e485d8c63efb3f1729eb80e6681aa01d5e3332",
+  "val_list_sha256": "ce97f39ca7d5829a5707329da568b686086f13a32b3dbf99ec44c53cfb991ef0",
+  "class_miou": 0.6590136250411616,
+  "boundary_f1": 0.7595211747640563,
+  "gate_on_minus_off_points": 0.8213806672507151
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "arm": "B4_G1_fold0",
+  "common_initial_sha256": "3e71375d2b38311513a3bb6293518ed5a81b0932227aebce4ca022a8721c4361",
+  "initial_output_max_abs_difference": 0.0,
+  "boundary_loss": 0.9999997019767761,
+  "module_gradient_sum": 4.755405089440501e-05,
+  "fresh_start": true
+}

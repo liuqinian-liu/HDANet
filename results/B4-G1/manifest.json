@@ -1,0 +1,69 @@
+{
+  "experiment": "B4+G1",
+  "dataset": "FSSD-12",
+  "shot": 1,
+  "training_seed": 2025,
+  "release_tag": "b4-g1-fssd12-seed2025-2026-10",
+  "folds": {
+    "fold0": {
+      "source_remote_directory": "/hy-tmp/lx/fssd12_b4_m2_g1_three_arm_20261010/B4_G1_fold0",
+      "archive": "B4-G1-FSSD12-seed2025-fold0-complete.tar.gz",
+      "archive_bytes": 412519913,
+      "archive_sha256": "06068cd9f68ca13516a5ecc8d3c058f86520e5b16a259b9e18b9035bc5eb8e73",
+      "files_sha256": {
+        "best.json": "b5ed3afc14a4df925dab2cddffc7300812117a1f68e13b3a43fa81239cb3e36b",
+        "evaluation.json": "5556c3c3cf749142b24a2013ede0fb8beb7362ef51d94a8961d154495d93a9f5",
+        "evaluation_gate_off.json": "2f95054d3dc3233349b3c8c511d64f4e8d2311250d0a094a09c22671db06f46a",
+        "epochs.jsonl": "c9cab6090ad91567b69aff1682dd800b0bcf5c3b83ae7db6728f7fee09684225",
+        "audit.json": "9d8e5bbaad6c8c782b19730bf08e3c78c2535e98b92cadfcb7280d8dc98527bc",
+        "preflight.json": "ff97952c6b101ccacf0def40dbb7b69745c14a6111202eae235d2ef16eb7b201",
+        "status.json": "401edd48415d6a9e3221d80c2a91b1cf3c02f0dee3bc2ff9ccfa779e5e21600b",
+        "source_config.yaml": "6e98d63d3231c328f3b3c9a7f050a8bc763eb83ea9de351949ebc58bc976b04d"
+      },
+      "best_epoch_zero_based": 133,
+      "best_checkpoint_filename": "train_epoch_133_0.7442255095254635.pth",
+      "class_miou": 0.7442255095254633,
+      "gate_off_class_miou": 0.7439469845261412,
+      "validation_episodes_sha256": "d376394a45d10c47379cbc3d67dc28b5a5ca76638016a77c1d13675449a66705"
+    },
+    "fold1": {
+      "source_remote_directory": "/hy-tmp/lx/fssd12_b4_combinations_fold1_20261009/B4_G1",
+      "archive": "B4-G1-FSSD12-seed2025-fold1-complete.tar.gz",
+      "archive_bytes": 479302739,
+      "archive_sha256": "bedddaba6cfe064a685ff28c6c03779ddc44107d862821c7e896f8eda57a2588",
+      "files_sha256": {
+        "best.json": "c2e09a79a308f21abb1b8ed1d078c31b4a38c34d1b1b2c304311fe51015ce66c",
+        "evaluation.json": "37153929b318ec7d831a1fb6afae2a6fc5c5bf8d1d8bbe05f0427796d18a70ce",
+        "evaluation_gate_off.json": "5354da6dfc78197629e6b3aedcf97f85695b189525c92042cf498a0d1108ff5a",
+        "epochs.jsonl": "c10d5009f4674dd92d6c1a77bc4faf4ebb9168456f8d7ed3095314b3973cb0c1",
+        "source_config.yaml": "2e8770c9db93321f645e6747aed45ed8623a2a913a2da21388ec2474949d193b"
+      },
+      "best_epoch_zero_based": 49,
+      "best_checkpoint_filename": "train_epoch_49_0.7437748650162852.pth",
+      "class_miou": 0.7437748650162852,
+      "gate_off_class_miou": 0.7456181766598048,
+      "validation_episodes_sha256": "96bec3ba6d8204b0bc84dfcd9d68a86f6c873fbbf3bea574233416a856e2c704"
+    },
+    "fold2": {
+      "source_remote_directory": "/hy-tmp/lx/fssd12_b4_m2_g1_three_arm_20261010/B4_G1_fold2",
+      "archive": "B4-G1-FSSD12-seed2025-fold2-complete.tar.gz",
+      "archive_bytes": 478214144,
+      "archive_sha256": "0e25f9a8a3a02f9bf5db3eb52e086e3e3cd9701be9c7373bd81d587cd89ed8de",
+      "files_sha256": {
+        "best.json": "6c785cf3aac2029f088e3bf606a08939c40934d67ed82d984770114e6ebe7d7d",
+        "evaluation.json": "b2d3ac91272e161325d5d6f1e1257cb4df0cd286b51b0db889fc3b3fb1dd7c05",
+        "evaluation_gate_off.json": "f048441ef983c8c15e4d6c10095e38d8444a9479f2d4613cd60349c4618dd6e1",
+        "epochs.jsonl": "2776995e4a6dfb176585638baf32d50f39ad38f5da579665b133cb9653377506",
+        "audit.json": "8babc1498bdd527f5a4a4dad368845fcadb07b5987dae3705382c1a8fd10c46d",
+        "preflight.json": "176d88ac7979822d3212c973d4211bdd95e69556d0a80d68b06868c87a888377",
+        "status.json": "9e76427f6484e80cc6f1abf68e55c25eb257278555c320849aec7c1cb8fa0cd2",
+        "source_config.yaml": "08ed6c7e3319148740210e1ae5913ee2599296b4c05fc85bf30e71c8b46e4b1b"
+      },
+      "best_epoch_zero_based": 128,
+      "best_checkpoint_filename": "train_epoch_128_0.6590136250411615.pth",
+      "class_miou": 0.6590136250411616,
+      "gate_off_class_miou": 0.6507998183686544,
+      "validation_episodes_sha256": "1a84107b7b6d75e9170045d04d7fd19ecf11030f7a46416a8640a0dd787a3d5a"
+    }
+  }
+}

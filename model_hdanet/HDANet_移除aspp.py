@@ -55,6 +55,9 @@ class HDANet(nn.Module):
         from torch.nn import BatchNorm2d as BatchNorm
         self.layers = args.layers
         self.criterion = nn.CrossEntropyLoss(ignore_index=args.ignore_label)
+        self.csh_boundary_weight = float(getattr(args, 'csh_boundary_weight', 0.0))
+        self.ignore_label = args.ignore_label
+        self.last_losses = {}
         self.shot = args.shot
         self.vgg = args.vgg
         self.pretrained = True
@@ -148,6 +151,8 @@ class HDANet(nn.Module):
         self.maf_h = MAF(reduce_dim)
         self.maf_l = MAF(reduce_dim)
         self.maf_m = MAF(reduce_dim)
+        from model_hdanet.g1_spatial_gate import configure_spatial_gate
+        configure_spatial_gate(self, args)
 
     def get_optim(self, args):
         optimizer = torch.optim.SGD(
@@ -280,6 +285,15 @@ class HDANet(nn.Module):
 
         if self.training:
             main_loss = self.criterion(out, y.long())
+            if self.csh_boundary_weight:
+                from model_hdanet.csh_boundary_loss import csh_boundary_loss
+                boundary = csh_boundary_loss(out, y, self.ignore_label)
+            else:
+                boundary = out.sum() * 0
+            self.last_losses = {'seg': float(main_loss.detach()),
+                                'edge': 0.0,
+                                'csh_boundary': float(boundary.detach())}
+            main_loss = main_loss + self.csh_boundary_weight * boundary
 
             return out.max(1)[1], main_loss
         else:

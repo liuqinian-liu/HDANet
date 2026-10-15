@@ -1,0 +1,2828 @@
+{
+  "experiment_id": "B4_G1",
+  "checkpoint": "/hy-tmp/lx/fssd12_b4_combinations_fold1_20261009/B4_G1/artifacts/train_epoch_49_0.7437748650162852.pth",
+  "epoch": 49,
+  "class_miou": 0.7456181766598048,
+  "fbiou": 0.8079659829106947,
+  "class_iou": {
+    "5": 0.8160844484700032,
+    "6": 0.5819812605891341,
+    "7": 0.6937010665925577,
+    "8": 0.8907059309875242
+  },
+  "boundary_f1_tolerance_2px": 0.6201633970019065,
+  "foreground_recall": 0.7556541643555229,
+  "background_false_positive_rate": 0.02164998702208309,
+  "val_inputs_sha256": "96bec3ba6d8204b0bc84dfcd9d68a86f6c873fbbf3bea574233416a856e2c704",
+  "episodes": 200,
+  "mean_inference_ms_shared_gpu": 43.92606224646935,
+  "peak_allocated_mib": 369.560546875,
+  "protocol": "best checkpoint selected on this same validation list; not independent test",
+  "records": [
+    {
+      "index": 0,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_1.jpg",
+      "class_id": 5,
+      "intersection": 5082,
+      "union": 5398,
+      "foreground_iou": 0.941459799925881,
+      "boundary_counts": [
+        396.0,
+        396.0,
+        414.0,
+        414.0
+      ]
+    },
+    {
+      "index": 1,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_2.jpg",
+      "class_id": 5,
+      "intersection": 15908,
+      "union": 16917,
+      "foreground_iou": 0.9403558550570378,
+      "boundary_counts": [
+        1037.0,
+        1089.0,
+        1069.0,
+        1230.0
+      ]
+    },
+    {
+      "index": 2,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_3.jpg",
+      "class_id": 5,
+      "intersection": 4213,
+      "union": 4650,
+      "foreground_iou": 0.9060215053763246,
+      "boundary_counts": [
+        380.0,
+        403.0,
+        408.0,
+        446.0
+      ]
+    },
+    {
+      "index": 3,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_4.jpg",
+      "class_id": 5,
+      "intersection": 7440,
+      "union": 8680,
+      "foreground_iou": 0.8571428571428472,
+      "boundary_counts": [
+        692.0,
+        928.0,
+        712.0,
+        831.0
+      ]
+    },
+    {
+      "index": 4,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_5.jpg",
+      "class_id": 5,
+      "intersection": 7723,
+      "union": 17282,
+      "foreground_iou": 0.44688114801527345,
+      "boundary_counts": [
+        666.0,
+        1478.0,
+        703.0,
+        1510.0
+      ]
+    },
+    {
+      "index": 5,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_6.jpg",
+      "class_id": 5,
+      "intersection": 6603,
+      "union": 7633,
+      "foreground_iou": 0.8650596095899271,
+      "boundary_counts": [
+        420.0,
+        519.0,
+        427.0,
+        555.0
+      ]
+    },
+    {
+      "index": 6,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_7.jpg",
+      "class_id": 5,
+      "intersection": 7731,
+      "union": 8379,
+      "foreground_iou": 0.9226638023630395,
+      "boundary_counts": [
+        375.0,
+        441.0,
+        380.0,
+        460.0
+      ]
+    },
+    {
+      "index": 7,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_8.jpg",
+      "class_id": 5,
+      "intersection": 5066,
+      "union": 6463,
+      "foreground_iou": 0.7838465109082348,
+      "boundary_counts": [
+        411.0,
+        693.0,
+        424.0,
+        532.0
+      ]
+    },
+    {
+      "index": 8,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_9.jpg",
+      "class_id": 5,
+      "intersection": 2886,
+      "union": 3094,
+      "foreground_iou": 0.9327731092436673,
+      "boundary_counts": [
+        294.0,
+        294.0,
+        317.0,
+        342.0
+      ]
+    },
+    {
+      "index": 9,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_10.jpg",
+      "class_id": 5,
+      "intersection": 4699,
+      "union": 5006,
+      "foreground_iou": 0.9386735916899532,
+      "boundary_counts": [
+        537.0,
+        548.0,
+        565.0,
+        608.0
+      ]
+    },
+    {
+      "index": 10,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_11.jpg",
+      "class_id": 5,
+      "intersection": 8224,
+      "union": 8439,
+      "foreground_iou": 0.9745230477544617,
+      "boundary_counts": [
+        525.0,
+        533.0,
+        553.0,
+        559.0
+      ]
+    },
+    {
+      "index": 11,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_12.jpg",
+      "class_id": 5,
+      "intersection": 4689,
+      "union": 5067,
+      "foreground_iou": 0.9253996447601949,
+      "boundary_counts": [
+        419.0,
+        455.0,
+        454.0,
+        458.0
+      ]
+    },
+    {
+      "index": 12,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_13.jpg",
+      "class_id": 5,
+      "intersection": 7190,
+      "union": 10316,
+      "foreground_iou": 0.6969755719270968,
+      "boundary_counts": [
+        410.0,
+        744.0,
+        430.0,
+        573.0
+      ]
+    },
+    {
+      "index": 13,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_14.jpg",
+      "class_id": 5,
+      "intersection": 5580,
+      "union": 5923,
+      "foreground_iou": 0.9420901570150103,
+      "boundary_counts": [
+        592.0,
+        592.0,
+        647.0,
+        733.0
+      ]
+    },
+    {
+      "index": 14,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_15.jpg",
+      "class_id": 5,
+      "intersection": 5688,
+      "union": 9408,
+      "foreground_iou": 0.6045918367346874,
+      "boundary_counts": [
+        430.0,
+        955.0,
+        411.0,
+        525.0
+      ]
+    },
+    {
+      "index": 15,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_16.jpg",
+      "class_id": 5,
+      "intersection": 4685,
+      "union": 4892,
+      "foreground_iou": 0.9576860179885331,
+      "boundary_counts": [
+        416.0,
+        416.0,
+        439.0,
+        441.0
+      ]
+    },
+    {
+      "index": 16,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_17.jpg",
+      "class_id": 5,
+      "intersection": 7610,
+      "union": 9071,
+      "foreground_iou": 0.838937272627044,
+      "boundary_counts": [
+        519.0,
+        815.0,
+        551.0,
+        585.0
+      ]
+    },
+    {
+      "index": 17,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_18.jpg",
+      "class_id": 5,
+      "intersection": 4134,
+      "union": 4954,
+      "foreground_iou": 0.8344771901493574,
+      "boundary_counts": [
+        204.0,
+        349.0,
+        212.0,
+        233.0
+      ]
+    },
+    {
+      "index": 18,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_19.jpg",
+      "class_id": 5,
+      "intersection": 5291,
+      "union": 6212,
+      "foreground_iou": 0.8517385705086792,
+      "boundary_counts": [
+        294.0,
+        492.0,
+        296.0,
+        345.0
+      ]
+    },
+    {
+      "index": 19,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_20.jpg",
+      "class_id": 5,
+      "intersection": 4340,
+      "union": 5298,
+      "foreground_iou": 0.8191770479426044,
+      "boundary_counts": [
+        331.0,
+        462.0,
+        417.0,
+        571.0
+      ]
+    },
+    {
+      "index": 20,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_21.jpg",
+      "class_id": 5,
+      "intersection": 4283,
+      "union": 6092,
+      "foreground_iou": 0.7030531845042564,
+      "boundary_counts": [
+        270.0,
+        675.0,
+        317.0,
+        375.0
+      ]
+    },
+    {
+      "index": 21,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_22.jpg",
+      "class_id": 5,
+      "intersection": 10696,
+      "union": 13126,
+      "foreground_iou": 0.8148712479049153,
+      "boundary_counts": [
+        549.0,
+        678.0,
+        584.0,
+        1013.0
+      ]
+    },
+    {
+      "index": 22,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_23.jpg",
+      "class_id": 5,
+      "intersection": 4784,
+      "union": 5514,
+      "foreground_iou": 0.8676097207109019,
+      "boundary_counts": [
+        623.0,
+        659.0,
+        654.0,
+        728.0
+      ]
+    },
+    {
+      "index": 23,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_24.jpg",
+      "class_id": 5,
+      "intersection": 4408,
+      "union": 4552,
+      "foreground_iou": 0.9683655536027906,
+      "boundary_counts": [
+        316.0,
+        346.0,
+        314.0,
+        314.0
+      ]
+    },
+    {
+      "index": 24,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_25.jpg",
+      "class_id": 5,
+      "intersection": 13976,
+      "union": 14174,
+      "foreground_iou": 0.9860307605474743,
+      "boundary_counts": [
+        535.0,
+        535.0,
+        531.0,
+        531.0
+      ]
+    },
+    {
+      "index": 25,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_26.jpg",
+      "class_id": 5,
+      "intersection": 10596,
+      "union": 13085,
+      "foreground_iou": 0.8097821933511593,
+      "boundary_counts": [
+        539.0,
+        678.0,
+        591.0,
+        1006.0
+      ]
+    },
+    {
+      "index": 26,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_27.jpg",
+      "class_id": 5,
+      "intersection": 6270,
+      "union": 6624,
+      "foreground_iou": 0.9465579710144785,
+      "boundary_counts": [
+        362.0,
+        444.0,
+        357.0,
+        363.0
+      ]
+    },
+    {
+      "index": 27,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_28.jpg",
+      "class_id": 5,
+      "intersection": 4383,
+      "union": 5877,
+      "foreground_iou": 0.745788667687583,
+      "boundary_counts": [
+        145.0,
+        488.0,
+        149.0,
+        341.0
+      ]
+    },
+    {
+      "index": 28,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_29.jpg",
+      "class_id": 5,
+      "intersection": 2413,
+      "union": 2766,
+      "foreground_iou": 0.872378886478638,
+      "boundary_counts": [
+        298.0,
+        336.0,
+        314.0,
+        334.0
+      ]
+    },
+    {
+      "index": 29,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_30.jpg",
+      "class_id": 5,
+      "intersection": 3233,
+      "union": 3742,
+      "foreground_iou": 0.8639764831640603,
+      "boundary_counts": [
+        548.0,
+        556.0,
+        584.0,
+        615.0
+      ]
+    },
+    {
+      "index": 30,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_31.jpg",
+      "class_id": 5,
+      "intersection": 1646,
+      "union": 2017,
+      "foreground_iou": 0.8160634605849868,
+      "boundary_counts": [
+        306.0,
+        324.0,
+        336.0,
+        373.0
+      ]
+    },
+    {
+      "index": 31,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_32.jpg",
+      "class_id": 5,
+      "intersection": 5299,
+      "union": 6029,
+      "foreground_iou": 0.8789185602919077,
+      "boundary_counts": [
+        714.0,
+        723.0,
+        763.0,
+        810.0
+      ]
+    },
+    {
+      "index": 32,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_33.jpg",
+      "class_id": 5,
+      "intersection": 4448,
+      "union": 5102,
+      "foreground_iou": 0.8718149745197791,
+      "boundary_counts": [
+        586.0,
+        603.0,
+        622.0,
+        669.0
+      ]
+    },
+    {
+      "index": 33,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_34.jpg",
+      "class_id": 5,
+      "intersection": 1673,
+      "union": 2045,
+      "foreground_iou": 0.8180929095354122,
+      "boundary_counts": [
+        298.0,
+        298.0,
+        336.0,
+        415.0
+      ]
+    },
+    {
+      "index": 34,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_35.jpg",
+      "class_id": 5,
+      "intersection": 5403,
+      "union": 6274,
+      "foreground_iou": 0.8611730953139806,
+      "boundary_counts": [
+        925.0,
+        937.0,
+        995.0,
+        1064.0
+      ]
+    },
+    {
+      "index": 35,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_36.jpg",
+      "class_id": 5,
+      "intersection": 5704,
+      "union": 6971,
+      "foreground_iou": 0.8182470233825733,
+      "boundary_counts": [
+        1007.0,
+        1066.0,
+        1095.0,
+        1152.0
+      ]
+    },
+    {
+      "index": 36,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_37.jpg",
+      "class_id": 5,
+      "intersection": 1504,
+      "union": 1898,
+      "foreground_iou": 0.7924130663856274,
+      "boundary_counts": [
+        337.0,
+        343.0,
+        373.0,
+        447.0
+      ]
+    },
+    {
+      "index": 37,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_38.jpg",
+      "class_id": 5,
+      "intersection": 1219,
+      "union": 1415,
+      "foreground_iou": 0.8614840989398684,
+      "boundary_counts": [
+        212.0,
+        214.0,
+        242.0,
+        247.0
+      ]
+    },
+    {
+      "index": 38,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_39.jpg",
+      "class_id": 5,
+      "intersection": 5138,
+      "union": 5568,
+      "foreground_iou": 0.9227729885057305,
+      "boundary_counts": [
+        707.0,
+        707.0,
+        738.0,
+        741.0
+      ]
+    },
+    {
+      "index": 39,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_40.jpg",
+      "class_id": 5,
+      "intersection": 2327,
+      "union": 2890,
+      "foreground_iou": 0.8051903114186573,
+      "boundary_counts": [
+        413.0,
+        439.0,
+        463.0,
+        514.0
+      ]
+    },
+    {
+      "index": 40,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_41.jpg",
+      "class_id": 5,
+      "intersection": 1583,
+      "union": 2229,
+      "foreground_iou": 0.7101839389860606,
+      "boundary_counts": [
+        274.0,
+        311.0,
+        313.0,
+        440.0
+      ]
+    },
+    {
+      "index": 41,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_42.jpg",
+      "class_id": 5,
+      "intersection": 3286,
+      "union": 4083,
+      "foreground_iou": 0.8048003918687042,
+      "boundary_counts": [
+        523.0,
+        556.0,
+        570.0,
+        671.0
+      ]
+    },
+    {
+      "index": 42,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_43.jpg",
+      "class_id": 5,
+      "intersection": 0,
+      "union": 7871,
+      "foreground_iou": 0.0,
+      "boundary_counts": [
+        0.0,
+        343.0,
+        0.0,
+        1129.0
+      ]
+    },
+    {
+      "index": 43,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_44.jpg",
+      "class_id": 5,
+      "intersection": 1446,
+      "union": 1673,
+      "foreground_iou": 0.8643156007172227,
+      "boundary_counts": [
+        300.0,
+        300.0,
+        321.0,
+        342.0
+      ]
+    },
+    {
+      "index": 44,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_45.jpg",
+      "class_id": 5,
+      "intersection": 1595,
+      "union": 2071,
+      "foreground_iou": 0.7701593433123722,
+      "boundary_counts": [
+        291.0,
+        309.0,
+        324.0,
+        383.0
+      ]
+    },
+    {
+      "index": 45,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_46.jpg",
+      "class_id": 5,
+      "intersection": 5415,
+      "union": 5942,
+      "foreground_iou": 0.9113093234600991,
+      "boundary_counts": [
+        946.0,
+        946.0,
+        972.0,
+        989.0
+      ]
+    },
+    {
+      "index": 46,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_47.jpg",
+      "class_id": 5,
+      "intersection": 7247,
+      "union": 8517,
+      "foreground_iou": 0.8508864623693689,
+      "boundary_counts": [
+        1142.0,
+        1156.0,
+        1226.0,
+        1469.0
+      ]
+    },
+    {
+      "index": 47,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_48.jpg",
+      "class_id": 5,
+      "intersection": 7615,
+      "union": 10596,
+      "foreground_iou": 0.7186674216685474,
+      "boundary_counts": [
+        237.0,
+        413.0,
+        240.0,
+        253.0
+      ]
+    },
+    {
+      "index": 48,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_49.jpg",
+      "class_id": 5,
+      "intersection": 4089,
+      "union": 4970,
+      "foreground_iou": 0.8227364185110498,
+      "boundary_counts": [
+        873.0,
+        877.0,
+        981.0,
+        1012.0
+      ]
+    },
+    {
+      "index": 49,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Os/Images/Steel_Os_50.jpg",
+      "class_id": 5,
+      "intersection": 14741,
+      "union": 15526,
+      "foreground_iou": 0.9494396496199862,
+      "boundary_counts": [
+        532.0,
+        709.0,
+        530.0,
+        530.0
+      ]
+    },
+    {
+      "index": 50,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_1.jpg",
+      "class_id": 6,
+      "intersection": 5761,
+      "union": 18110,
+      "foreground_iou": 0.31811154058531027,
+      "boundary_counts": [
+        753.0,
+        2109.0,
+        693.0,
+        1431.0
+      ]
+    },
+    {
+      "index": 51,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_2.jpg",
+      "class_id": 6,
+      "intersection": 7546,
+      "union": 17520,
+      "foreground_iou": 0.4307077625570752,
+      "boundary_counts": [
+        1292.0,
+        2492.0,
+        1197.0,
+        1901.0
+      ]
+    },
+    {
+      "index": 52,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_3.jpg",
+      "class_id": 6,
+      "intersection": 8794,
+      "union": 14208,
+      "foreground_iou": 0.6189470720720677,
+      "boundary_counts": [
+        657.0,
+        1557.0,
+        668.0,
+        1055.0
+      ]
+    },
+    {
+      "index": 53,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_4.jpg",
+      "class_id": 6,
+      "intersection": 9140,
+      "union": 14017,
+      "foreground_iou": 0.6520653492188011,
+      "boundary_counts": [
+        866.0,
+        1530.0,
+        874.0,
+        1420.0
+      ]
+    },
+    {
+      "index": 54,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_5.jpg",
+      "class_id": 6,
+      "intersection": 10067,
+      "union": 18259,
+      "foreground_iou": 0.551344542417435,
+      "boundary_counts": [
+        547.0,
+        1392.0,
+        554.0,
+        1524.0
+      ]
+    },
+    {
+      "index": 55,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_6.jpg",
+      "class_id": 6,
+      "intersection": 8175,
+      "union": 11950,
+      "foreground_iou": 0.6841004184100361,
+      "boundary_counts": [
+        749.0,
+        1351.0,
+        727.0,
+        1003.0
+      ]
+    },
+    {
+      "index": 56,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_7.jpg",
+      "class_id": 6,
+      "intersection": 2222,
+      "union": 2758,
+      "foreground_iou": 0.8056562726613196,
+      "boundary_counts": [
+        521.0,
+        584.0,
+        529.0,
+        561.0
+      ]
+    },
+    {
+      "index": 57,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_8.jpg",
+      "class_id": 6,
+      "intersection": 5707,
+      "union": 7886,
+      "foreground_iou": 0.7236875475526158,
+      "boundary_counts": [
+        542.0,
+        971.0,
+        537.0,
+        681.0
+      ]
+    },
+    {
+      "index": 58,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_9.jpg",
+      "class_id": 6,
+      "intersection": 7246,
+      "union": 9130,
+      "foreground_iou": 0.7936473165388741,
+      "boundary_counts": [
+        601.0,
+        892.0,
+        627.0,
+        873.0
+      ]
+    },
+    {
+      "index": 59,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_10.jpg",
+      "class_id": 6,
+      "intersection": 8959,
+      "union": 11165,
+      "foreground_iou": 0.8024182713837814,
+      "boundary_counts": [
+        603.0,
+        866.0,
+        625.0,
+        1190.0
+      ]
+    },
+    {
+      "index": 60,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_11.jpg",
+      "class_id": 6,
+      "intersection": 9210,
+      "union": 13660,
+      "foreground_iou": 0.6742313323572425,
+      "boundary_counts": [
+        663.0,
+        1720.0,
+        627.0,
+        811.0
+      ]
+    },
+    {
+      "index": 61,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_12.jpg",
+      "class_id": 6,
+      "intersection": 10378,
+      "union": 12966,
+      "foreground_iou": 0.8004010488971094,
+      "boundary_counts": [
+        852.0,
+        1322.0,
+        827.0,
+        1024.0
+      ]
+    },
+    {
+      "index": 62,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_13.jpg",
+      "class_id": 6,
+      "intersection": 5551,
+      "union": 8894,
+      "foreground_iou": 0.62412862604002,
+      "boundary_counts": [
+        499.0,
+        936.0,
+        506.0,
+        749.0
+      ]
+    },
+    {
+      "index": 63,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_14.jpg",
+      "class_id": 6,
+      "intersection": 10794,
+      "union": 14198,
+      "foreground_iou": 0.760247922242564,
+      "boundary_counts": [
+        1005.0,
+        1569.0,
+        1036.0,
+        1224.0
+      ]
+    },
+    {
+      "index": 64,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_15.jpg",
+      "class_id": 6,
+      "intersection": 7280,
+      "union": 11884,
+      "foreground_iou": 0.6125883540895269,
+      "boundary_counts": [
+        548.0,
+        1267.0,
+        542.0,
+        984.0
+      ]
+    },
+    {
+      "index": 65,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_16.jpg",
+      "class_id": 6,
+      "intersection": 12291,
+      "union": 17157,
+      "foreground_iou": 0.7163839832138444,
+      "boundary_counts": [
+        1113.0,
+        2229.0,
+        1122.0,
+        1501.0
+      ]
+    },
+    {
+      "index": 66,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_17.jpg",
+      "class_id": 6,
+      "intersection": 7255,
+      "union": 13732,
+      "foreground_iou": 0.5283279930090261,
+      "boundary_counts": [
+        1094.0,
+        1481.0,
+        1105.0,
+        1330.0
+      ]
+    },
+    {
+      "index": 67,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_18.jpg",
+      "class_id": 6,
+      "intersection": 6446,
+      "union": 18749,
+      "foreground_iou": 0.343805002933488,
+      "boundary_counts": [
+        428.0,
+        1429.0,
+        409.0,
+        1401.0
+      ]
+    },
+    {
+      "index": 68,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_19.jpg",
+      "class_id": 6,
+      "intersection": 6852,
+      "union": 15499,
+      "foreground_iou": 0.4420930382605301,
+      "boundary_counts": [
+        279.0,
+        992.0,
+        281.0,
+        882.0
+      ]
+    },
+    {
+      "index": 69,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_20.jpg",
+      "class_id": 6,
+      "intersection": 7707,
+      "union": 15258,
+      "foreground_iou": 0.5051120723554824,
+      "boundary_counts": [
+        686.0,
+        1417.0,
+        670.0,
+        1272.0
+      ]
+    },
+    {
+      "index": 70,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_21.jpg",
+      "class_id": 6,
+      "intersection": 6607,
+      "union": 14917,
+      "foreground_iou": 0.4429174767044282,
+      "boundary_counts": [
+        644.0,
+        1329.0,
+        650.0,
+        1190.0
+      ]
+    },
+    {
+      "index": 71,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_22.jpg",
+      "class_id": 6,
+      "intersection": 10208,
+      "union": 15198,
+      "foreground_iou": 0.6716673246479756,
+      "boundary_counts": [
+        806.0,
+        1890.0,
+        834.0,
+        1047.0
+      ]
+    },
+    {
+      "index": 72,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_23.jpg",
+      "class_id": 6,
+      "intersection": 8530,
+      "union": 12801,
+      "foreground_iou": 0.6663541910788168,
+      "boundary_counts": [
+        675.0,
+        1249.0,
+        669.0,
+        1105.0
+      ]
+    },
+    {
+      "index": 73,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_24.jpg",
+      "class_id": 6,
+      "intersection": 6758,
+      "union": 12818,
+      "foreground_iou": 0.5272273365579613,
+      "boundary_counts": [
+        602.0,
+        1326.0,
+        624.0,
+        1009.0
+      ]
+    },
+    {
+      "index": 74,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_25.jpg",
+      "class_id": 6,
+      "intersection": 9072,
+      "union": 12620,
+      "foreground_iou": 0.7188589540411987,
+      "boundary_counts": [
+        814.0,
+        1348.0,
+        794.0,
+        1205.0
+      ]
+    },
+    {
+      "index": 75,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_26.jpg",
+      "class_id": 6,
+      "intersection": 6487,
+      "union": 10294,
+      "foreground_iou": 0.630172916261894,
+      "boundary_counts": [
+        909.0,
+        1379.0,
+        914.0,
+        1314.0
+      ]
+    },
+    {
+      "index": 76,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_27.jpg",
+      "class_id": 6,
+      "intersection": 3447,
+      "union": 8611,
+      "foreground_iou": 0.4003019393798583,
+      "boundary_counts": [
+        343.0,
+        632.0,
+        348.0,
+        807.0
+      ]
+    },
+    {
+      "index": 77,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_28.jpg",
+      "class_id": 6,
+      "intersection": 8878,
+      "union": 15762,
+      "foreground_iou": 0.5632533942393062,
+      "boundary_counts": [
+        468.0,
+        1098.0,
+        475.0,
+        1080.0
+      ]
+    },
+    {
+      "index": 78,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_29.jpg",
+      "class_id": 6,
+      "intersection": 6180,
+      "union": 19103,
+      "foreground_iou": 0.32350939642987847,
+      "boundary_counts": [
+        455.0,
+        1570.0,
+        444.0,
+        1436.0
+      ]
+    },
+    {
+      "index": 79,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_30.jpg",
+      "class_id": 6,
+      "intersection": 6584,
+      "union": 15184,
+      "foreground_iou": 0.433614330874602,
+      "boundary_counts": [
+        324.0,
+        1024.0,
+        323.0,
+        861.0
+      ]
+    },
+    {
+      "index": 80,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_31.jpg",
+      "class_id": 6,
+      "intersection": 9182,
+      "union": 13172,
+      "foreground_iou": 0.6970847251746075,
+      "boundary_counts": [
+        1058.0,
+        1752.0,
+        1051.0,
+        1586.0
+      ]
+    },
+    {
+      "index": 81,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_32.jpg",
+      "class_id": 6,
+      "intersection": 5874,
+      "union": 8363,
+      "foreground_iou": 0.7023795288771888,
+      "boundary_counts": [
+        293.0,
+        775.0,
+        304.0,
+        542.0
+      ]
+    },
+    {
+      "index": 82,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_33.jpg",
+      "class_id": 6,
+      "intersection": 5675,
+      "union": 8239,
+      "foreground_iou": 0.6887971841242786,
+      "boundary_counts": [
+        401.0,
+        851.0,
+        417.0,
+        739.0
+      ]
+    },
+    {
+      "index": 83,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_34.jpg",
+      "class_id": 6,
+      "intersection": 5586,
+      "union": 7914,
+      "foreground_iou": 0.7058377558756544,
+      "boundary_counts": [
+        475.0,
+        839.0,
+        480.0,
+        771.0
+      ]
+    },
+    {
+      "index": 84,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_35.jpg",
+      "class_id": 6,
+      "intersection": 4298,
+      "union": 8577,
+      "foreground_iou": 0.5011076133846275,
+      "boundary_counts": [
+        388.0,
+        794.0,
+        403.0,
+        807.0
+      ]
+    },
+    {
+      "index": 85,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_36.jpg",
+      "class_id": 6,
+      "intersection": 7822,
+      "union": 11900,
+      "foreground_iou": 0.6573109243697424,
+      "boundary_counts": [
+        559.0,
+        1216.0,
+        562.0,
+        984.0
+      ]
+    },
+    {
+      "index": 86,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_37.jpg",
+      "class_id": 6,
+      "intersection": 5899,
+      "union": 7972,
+      "foreground_iou": 0.7399648770697348,
+      "boundary_counts": [
+        507.0,
+        810.0,
+        512.0,
+        771.0
+      ]
+    },
+    {
+      "index": 87,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_38.jpg",
+      "class_id": 6,
+      "intersection": 6604,
+      "union": 17190,
+      "foreground_iou": 0.38417684700406995,
+      "boundary_counts": [
+        471.0,
+        1669.0,
+        481.0,
+        1194.0
+      ]
+    },
+    {
+      "index": 88,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_39.jpg",
+      "class_id": 6,
+      "intersection": 7191,
+      "union": 11671,
+      "foreground_iou": 0.6161425756147664,
+      "boundary_counts": [
+        923.0,
+        1661.0,
+        932.0,
+        1246.0
+      ]
+    },
+    {
+      "index": 89,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_40.jpg",
+      "class_id": 6,
+      "intersection": 7873,
+      "union": 9906,
+      "foreground_iou": 0.7947708459519403,
+      "boundary_counts": [
+        547.0,
+        942.0,
+        550.0,
+        701.0
+      ]
+    },
+    {
+      "index": 90,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_41.jpg",
+      "class_id": 6,
+      "intersection": 3316,
+      "union": 6563,
+      "foreground_iou": 0.5052567423434328,
+      "boundary_counts": [
+        451.0,
+        685.0,
+        476.0,
+        956.0
+      ]
+    },
+    {
+      "index": 91,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_42.jpg",
+      "class_id": 6,
+      "intersection": 3247,
+      "union": 3533,
+      "foreground_iou": 0.9190489668836422,
+      "boundary_counts": [
+        371.0,
+        371.0,
+        380.0,
+        388.0
+      ]
+    },
+    {
+      "index": 92,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_43.jpg",
+      "class_id": 6,
+      "intersection": 5816,
+      "union": 7087,
+      "foreground_iou": 0.8206575419782585,
+      "boundary_counts": [
+        514.0,
+        641.0,
+        525.0,
+        637.0
+      ]
+    },
+    {
+      "index": 93,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_44.jpg",
+      "class_id": 6,
+      "intersection": 4386,
+      "union": 5158,
+      "foreground_iou": 0.8503295851104915,
+      "boundary_counts": [
+        472.0,
+        611.0,
+        486.0,
+        546.0
+      ]
+    },
+    {
+      "index": 94,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_45.jpg",
+      "class_id": 6,
+      "intersection": 10485,
+      "union": 21416,
+      "foreground_iou": 0.4895872245050407,
+      "boundary_counts": [
+        245.0,
+        1793.0,
+        238.0,
+        695.0
+      ]
+    },
+    {
+      "index": 95,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_46.jpg",
+      "class_id": 6,
+      "intersection": 4504,
+      "union": 12695,
+      "foreground_iou": 0.35478534856242333,
+      "boundary_counts": [
+        539.0,
+        1252.0,
+        532.0,
+        996.0
+      ]
+    },
+    {
+      "index": 96,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_47.jpg",
+      "class_id": 6,
+      "intersection": 5229,
+      "union": 10191,
+      "foreground_iou": 0.5130997939358207,
+      "boundary_counts": [
+        680.0,
+        1405.0,
+        674.0,
+        1079.0
+      ]
+    },
+    {
+      "index": 97,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_48.jpg",
+      "class_id": 6,
+      "intersection": 7509,
+      "union": 13096,
+      "foreground_iou": 0.5733811850946811,
+      "boundary_counts": [
+        256.0,
+        845.0,
+        284.0,
+        848.0
+      ]
+    },
+    {
+      "index": 98,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_49.jpg",
+      "class_id": 6,
+      "intersection": 10688,
+      "union": 14109,
+      "foreground_iou": 0.7575306541923541,
+      "boundary_counts": [
+        705.0,
+        1652.0,
+        696.0,
+        842.0
+      ]
+    },
+    {
+      "index": 99,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Ws/Images/Steel_Ws_50.jpg",
+      "class_id": 6,
+      "intersection": 6269,
+      "union": 11367,
+      "foreground_iou": 0.5515087534089861,
+      "boundary_counts": [
+        1128.0,
+        1761.0,
+        1162.0,
+        1424.0
+      ]
+    },
+    {
+      "index": 100,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_1.jpg",
+      "class_id": 7,
+      "intersection": 6685,
+      "union": 7872,
+      "foreground_iou": 0.849212398373973,
+      "boundary_counts": [
+        448.0,
+        615.0,
+        431.0,
+        564.0
+      ]
+    },
+    {
+      "index": 101,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_2.jpg",
+      "class_id": 7,
+      "intersection": 5921,
+      "union": 7946,
+      "foreground_iou": 0.7451547948653316,
+      "boundary_counts": [
+        352.0,
+        739.0,
+        350.0,
+        525.0
+      ]
+    },
+    {
+      "index": 102,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_3.jpg",
+      "class_id": 7,
+      "intersection": 5001,
+      "union": 7940,
+      "foreground_iou": 0.6298488664987326,
+      "boundary_counts": [
+        347.0,
+        914.0,
+        363.0,
+        520.0
+      ]
+    },
+    {
+      "index": 103,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_4.jpg",
+      "class_id": 7,
+      "intersection": 5815,
+      "union": 9876,
+      "foreground_iou": 0.5888011340623674,
+      "boundary_counts": [
+        366.0,
+        860.0,
+        352.0,
+        587.0
+      ]
+    },
+    {
+      "index": 104,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_5.jpg",
+      "class_id": 7,
+      "intersection": 5779,
+      "union": 7313,
+      "foreground_iou": 0.7902365650211843,
+      "boundary_counts": [
+        300.0,
+        591.0,
+        291.0,
+        500.0
+      ]
+    },
+    {
+      "index": 105,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_6.jpg",
+      "class_id": 7,
+      "intersection": 2516,
+      "union": 4442,
+      "foreground_iou": 0.566411526339474,
+      "boundary_counts": [
+        230.0,
+        757.0,
+        212.0,
+        311.0
+      ]
+    },
+    {
+      "index": 106,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_7.jpg",
+      "class_id": 7,
+      "intersection": 6505,
+      "union": 7900,
+      "foreground_iou": 0.823417721518977,
+      "boundary_counts": [
+        293.0,
+        510.0,
+        277.0,
+        505.0
+      ]
+    },
+    {
+      "index": 107,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_8.jpg",
+      "class_id": 7,
+      "intersection": 8224,
+      "union": 9904,
+      "foreground_iou": 0.8303715670436104,
+      "boundary_counts": [
+        423.0,
+        696.0,
+        401.0,
+        648.0
+      ]
+    },
+    {
+      "index": 108,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_9.jpg",
+      "class_id": 7,
+      "intersection": 10831,
+      "union": 17523,
+      "foreground_iou": 0.6181019231866655,
+      "boundary_counts": [
+        470.0,
+        1148.0,
+        474.0,
+        808.0
+      ]
+    },
+    {
+      "index": 109,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_10.jpg",
+      "class_id": 7,
+      "intersection": 8419,
+      "union": 11033,
+      "foreground_iou": 0.7630744131242566,
+      "boundary_counts": [
+        453.0,
+        866.0,
+        458.0,
+        802.0
+      ]
+    },
+    {
+      "index": 110,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_11.jpg",
+      "class_id": 7,
+      "intersection": 15728,
+      "union": 19407,
+      "foreground_iou": 0.8104292265677292,
+      "boundary_counts": [
+        774.0,
+        1279.0,
+        771.0,
+        1255.0
+      ]
+    },
+    {
+      "index": 111,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_12.jpg",
+      "class_id": 7,
+      "intersection": 12999,
+      "union": 17898,
+      "foreground_iou": 0.7262822661749876,
+      "boundary_counts": [
+        541.0,
+        1309.0,
+        536.0,
+        875.0
+      ]
+    },
+    {
+      "index": 112,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_13.jpg",
+      "class_id": 7,
+      "intersection": 7337,
+      "union": 8527,
+      "foreground_iou": 0.8604432977600462,
+      "boundary_counts": [
+        408.0,
+        632.0,
+        398.0,
+        577.0
+      ]
+    },
+    {
+      "index": 113,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_14.jpg",
+      "class_id": 7,
+      "intersection": 14748,
+      "union": 18004,
+      "foreground_iou": 0.8191512997111708,
+      "boundary_counts": [
+        762.0,
+        1236.0,
+        735.0,
+        1165.0
+      ]
+    },
+    {
+      "index": 114,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_15.jpg",
+      "class_id": 7,
+      "intersection": 9267,
+      "union": 11168,
+      "foreground_iou": 0.8297815186246345,
+      "boundary_counts": [
+        406.0,
+        753.0,
+        404.0,
+        746.0
+      ]
+    },
+    {
+      "index": 115,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_16.jpg",
+      "class_id": 7,
+      "intersection": 8419,
+      "union": 12333,
+      "foreground_iou": 0.6826400713532743,
+      "boundary_counts": [
+        281.0,
+        1011.0,
+        268.0,
+        551.0
+      ]
+    },
+    {
+      "index": 116,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_17.jpg",
+      "class_id": 7,
+      "intersection": 6435,
+      "union": 9517,
+      "foreground_iou": 0.6761584532940982,
+      "boundary_counts": [
+        376.0,
+        938.0,
+        378.0,
+        590.0
+      ]
+    },
+    {
+      "index": 117,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_18.jpg",
+      "class_id": 7,
+      "intersection": 6966,
+      "union": 12550,
+      "foreground_iou": 0.5550597609561708,
+      "boundary_counts": [
+        426.0,
+        1262.0,
+        423.0,
+        890.0
+      ]
+    },
+    {
+      "index": 118,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_19.jpg",
+      "class_id": 7,
+      "intersection": 13246,
+      "union": 18408,
+      "foreground_iou": 0.7195784441547115,
+      "boundary_counts": [
+        845.0,
+        1815.0,
+        838.0,
+        1295.0
+      ]
+    },
+    {
+      "index": 119,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_20.jpg",
+      "class_id": 7,
+      "intersection": 9129,
+      "union": 11558,
+      "foreground_iou": 0.7898425333102544,
+      "boundary_counts": [
+        775.0,
+        1276.0,
+        721.0,
+        944.0
+      ]
+    },
+    {
+      "index": 120,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_21.jpg",
+      "class_id": 7,
+      "intersection": 9735,
+      "union": 13649,
+      "foreground_iou": 0.7132390651329715,
+      "boundary_counts": [
+        537.0,
+        1477.0,
+        522.0,
+        774.0
+      ]
+    },
+    {
+      "index": 121,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_22.jpg",
+      "class_id": 7,
+      "intersection": 8233,
+      "union": 13306,
+      "foreground_iou": 0.6187434240192348,
+      "boundary_counts": [
+        306.0,
+        1309.0,
+        294.0,
+        562.0
+      ]
+    },
+    {
+      "index": 122,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_23.jpg",
+      "class_id": 7,
+      "intersection": 13198,
+      "union": 17490,
+      "foreground_iou": 0.7546026300743239,
+      "boundary_counts": [
+        849.0,
+        1664.0,
+        840.0,
+        1313.0
+      ]
+    },
+    {
+      "index": 123,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_24.jpg",
+      "class_id": 7,
+      "intersection": 1039,
+      "union": 12482,
+      "foreground_iou": 0.08323986540618424,
+      "boundary_counts": [
+        78.0,
+        971.0,
+        73.0,
+        542.0
+      ]
+    },
+    {
+      "index": 124,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_25.jpg",
+      "class_id": 7,
+      "intersection": 5383,
+      "union": 10917,
+      "foreground_iou": 0.49308418063570125,
+      "boundary_counts": [
+        237.0,
+        1290.0,
+        234.0,
+        413.0
+      ]
+    },
+    {
+      "index": 125,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_26.jpg",
+      "class_id": 7,
+      "intersection": 7109,
+      "union": 11474,
+      "foreground_iou": 0.6195746906048404,
+      "boundary_counts": [
+        251.0,
+        1214.0,
+        246.0,
+        570.0
+      ]
+    },
+    {
+      "index": 126,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_27.jpg",
+      "class_id": 7,
+      "intersection": 3495,
+      "union": 8419,
+      "foreground_iou": 0.4151324385318872,
+      "boundary_counts": [
+        119.0,
+        999.0,
+        116.0,
+        251.0
+      ]
+    },
+    {
+      "index": 127,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_28.jpg",
+      "class_id": 7,
+      "intersection": 2109,
+      "union": 5900,
+      "foreground_iou": 0.357457627118638,
+      "boundary_counts": [
+        201.0,
+        947.0,
+        194.0,
+        336.0
+      ]
+    },
+    {
+      "index": 128,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_29.jpg",
+      "class_id": 7,
+      "intersection": 5220,
+      "union": 7282,
+      "foreground_iou": 0.716836034056568,
+      "boundary_counts": [
+        426.0,
+        944.0,
+        418.0,
+        626.0
+      ]
+    },
+    {
+      "index": 129,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_30.jpg",
+      "class_id": 7,
+      "intersection": 9195,
+      "union": 10685,
+      "foreground_iou": 0.860552175947582,
+      "boundary_counts": [
+        744.0,
+        1059.0,
+        733.0,
+        860.0
+      ]
+    },
+    {
+      "index": 130,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_31.jpg",
+      "class_id": 7,
+      "intersection": 1644,
+      "union": 3762,
+      "foreground_iou": 0.4370015948963201,
+      "boundary_counts": [
+        223.0,
+        743.0,
+        230.0,
+        365.0
+      ]
+    },
+    {
+      "index": 131,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_32.jpg",
+      "class_id": 7,
+      "intersection": 9846,
+      "union": 13136,
+      "foreground_iou": 0.7495432399512733,
+      "boundary_counts": [
+        667.0,
+        1385.0,
+        686.0,
+        972.0
+      ]
+    },
+    {
+      "index": 132,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_33.jpg",
+      "class_id": 7,
+      "intersection": 1133,
+      "union": 1851,
+      "foreground_iou": 0.6121015667206584,
+      "boundary_counts": [
+        140.0,
+        468.0,
+        132.0,
+        151.0
+      ]
+    },
+    {
+      "index": 133,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_34.jpg",
+      "class_id": 7,
+      "intersection": 3837,
+      "union": 7117,
+      "foreground_iou": 0.5391316565968731,
+      "boundary_counts": [
+        224.0,
+        1050.0,
+        228.0,
+        426.0
+      ]
+    },
+    {
+      "index": 134,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_35.jpg",
+      "class_id": 7,
+      "intersection": 4019,
+      "union": 8624,
+      "foreground_iou": 0.46602504638218384,
+      "boundary_counts": [
+        434.0,
+        1677.0,
+        456.0,
+        596.0
+      ]
+    },
+    {
+      "index": 135,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_36.jpg",
+      "class_id": 7,
+      "intersection": 3153,
+      "union": 5947,
+      "foreground_iou": 0.5301832856902551,
+      "boundary_counts": [
+        317.0,
+        824.0,
+        325.0,
+        495.0
+      ]
+    },
+    {
+      "index": 136,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_37.jpg",
+      "class_id": 7,
+      "intersection": 6253,
+      "union": 7852,
+      "foreground_iou": 0.7963576158940295,
+      "boundary_counts": [
+        470.0,
+        817.0,
+        460.0,
+        604.0
+      ]
+    },
+    {
+      "index": 137,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_38.jpg",
+      "class_id": 7,
+      "intersection": 5357,
+      "union": 6722,
+      "foreground_iou": 0.7969354358821661,
+      "boundary_counts": [
+        363.0,
+        578.0,
+        359.0,
+        544.0
+      ]
+    },
+    {
+      "index": 138,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_39.jpg",
+      "class_id": 7,
+      "intersection": 2289,
+      "union": 4628,
+      "foreground_iou": 0.4945980985306721,
+      "boundary_counts": [
+        322.0,
+        1084.0,
+        319.0,
+        382.0
+      ]
+    },
+    {
+      "index": 139,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_40.jpg",
+      "class_id": 7,
+      "intersection": 5493,
+      "union": 7875,
+      "foreground_iou": 0.6975238095238007,
+      "boundary_counts": [
+        284.0,
+        803.0,
+        266.0,
+        503.0
+      ]
+    },
+    {
+      "index": 140,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_41.jpg",
+      "class_id": 7,
+      "intersection": 7613,
+      "union": 9773,
+      "foreground_iou": 0.7789829121047704,
+      "boundary_counts": [
+        499.0,
+        768.0,
+        508.0,
+        760.0
+      ]
+    },
+    {
+      "index": 141,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_42.jpg",
+      "class_id": 7,
+      "intersection": 9327,
+      "union": 13329,
+      "foreground_iou": 0.699752419536344,
+      "boundary_counts": [
+        591.0,
+        1452.0,
+        588.0,
+        885.0
+      ]
+    },
+    {
+      "index": 142,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_43.jpg",
+      "class_id": 7,
+      "intersection": 3054,
+      "union": 3913,
+      "foreground_iou": 0.7804753386148535,
+      "boundary_counts": [
+        315.0,
+        488.0,
+        308.0,
+        323.0
+      ]
+    },
+    {
+      "index": 143,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_44.jpg",
+      "class_id": 7,
+      "intersection": 8112,
+      "union": 10074,
+      "foreground_iou": 0.8052412150089259,
+      "boundary_counts": [
+        531.0,
+        860.0,
+        512.0,
+        710.0
+      ]
+    },
+    {
+      "index": 144,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_45.jpg",
+      "class_id": 7,
+      "intersection": 13828,
+      "union": 18536,
+      "foreground_iou": 0.746007768666375,
+      "boundary_counts": [
+        685.0,
+        1322.0,
+        671.0,
+        1060.0
+      ]
+    },
+    {
+      "index": 145,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_46.jpg",
+      "class_id": 7,
+      "intersection": 3151,
+      "union": 4140,
+      "foreground_iou": 0.7611111111110928,
+      "boundary_counts": [
+        343.0,
+        486.0,
+        345.0,
+        417.0
+      ]
+    },
+    {
+      "index": 146,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_47.jpg",
+      "class_id": 7,
+      "intersection": 15474,
+      "union": 20460,
+      "foreground_iou": 0.7563049853372398,
+      "boundary_counts": [
+        601.0,
+        1599.0,
+        585.0,
+        826.0
+      ]
+    },
+    {
+      "index": 147,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_48.jpg",
+      "class_id": 7,
+      "intersection": 15529,
+      "union": 17627,
+      "foreground_iou": 0.880978045044529,
+      "boundary_counts": [
+        330.0,
+        737.0,
+        311.0,
+        569.0
+      ]
+    },
+    {
+      "index": 148,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_49.jpg",
+      "class_id": 7,
+      "intersection": 4341,
+      "union": 7849,
+      "foreground_iou": 0.5530640845967568,
+      "boundary_counts": [
+        348.0,
+        900.0,
+        330.0,
+        422.0
+      ]
+    },
+    {
+      "index": 149,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pa/Images/Steel_Pa_50.jpg",
+      "class_id": 7,
+      "intersection": 3803,
+      "union": 5817,
+      "foreground_iou": 0.6537734227264801,
+      "boundary_counts": [
+        234.0,
+        651.0,
+        230.0,
+        413.0
+      ]
+    },
+    {
+      "index": 150,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_1.jpg",
+      "class_id": 8,
+      "intersection": 893,
+      "union": 1004,
+      "foreground_iou": 0.8894422310756086,
+      "boundary_counts": [
+        103.0,
+        103.0,
+        105.0,
+        105.0
+      ]
+    },
+    {
+      "index": 151,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_2.jpg",
+      "class_id": 8,
+      "intersection": 758,
+      "union": 823,
+      "foreground_iou": 0.9210206561359755,
+      "boundary_counts": [
+        95.0,
+        95.0,
+        94.0,
+        94.0
+      ]
+    },
+    {
+      "index": 152,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_3.jpg",
+      "class_id": 8,
+      "intersection": 760,
+      "union": 820,
+      "foreground_iou": 0.9268292682925698,
+      "boundary_counts": [
+        93.0,
+        93.0,
+        94.0,
+        94.0
+      ]
+    },
+    {
+      "index": 153,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_4.jpg",
+      "class_id": 8,
+      "intersection": 0,
+      "union": 1590,
+      "foreground_iou": 0.0,
+      "boundary_counts": [
+        0.0,
+        94.0,
+        0.0,
+        94.0
+      ]
+    },
+    {
+      "index": 154,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_5.jpg",
+      "class_id": 8,
+      "intersection": 0,
+      "union": 1577,
+      "foreground_iou": 0.0,
+      "boundary_counts": [
+        0.0,
+        94.0,
+        0.0,
+        94.0
+      ]
+    },
+    {
+      "index": 155,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_6.jpg",
+      "class_id": 8,
+      "intersection": 767,
+      "union": 803,
+      "foreground_iou": 0.9551681195515622,
+      "boundary_counts": [
+        94.0,
+        94.0,
+        94.0,
+        94.0
+      ]
+    },
+    {
+      "index": 156,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_7.jpg",
+      "class_id": 8,
+      "intersection": 772,
+      "union": 794,
+      "foreground_iou": 0.9722921914356457,
+      "boundary_counts": [
+        92.0,
+        92.0,
+        94.0,
+        94.0
+      ]
+    },
+    {
+      "index": 157,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_8.jpg",
+      "class_id": 8,
+      "intersection": 760,
+      "union": 795,
+      "foreground_iou": 0.9559748427671753,
+      "boundary_counts": [
+        91.0,
+        91.0,
+        94.0,
+        94.0
+      ]
+    },
+    {
+      "index": 158,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_9.jpg",
+      "class_id": 8,
+      "intersection": 751,
+      "union": 815,
+      "foreground_iou": 0.9214723926379237,
+      "boundary_counts": [
+        93.0,
+        93.0,
+        94.0,
+        94.0
+      ]
+    },
+    {
+      "index": 159,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_10.jpg",
+      "class_id": 8,
+      "intersection": 749,
+      "union": 824,
+      "foreground_iou": 0.9089805825241615,
+      "boundary_counts": [
+        93.0,
+        94.0,
+        94.0,
+        94.0
+      ]
+    },
+    {
+      "index": 160,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_11.jpg",
+      "class_id": 8,
+      "intersection": 781,
+      "union": 860,
+      "foreground_iou": 0.9081395348836153,
+      "boundary_counts": [
+        92.0,
+        92.0,
+        101.0,
+        101.0
+      ]
+    },
+    {
+      "index": 161,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_12.jpg",
+      "class_id": 8,
+      "intersection": 789,
+      "union": 862,
+      "foreground_iou": 0.9153132250578984,
+      "boundary_counts": [
+        97.0,
+        97.0,
+        102.0,
+        102.0
+      ]
+    },
+    {
+      "index": 162,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_13.jpg",
+      "class_id": 8,
+      "intersection": 780,
+      "union": 864,
+      "foreground_iou": 0.9027777777776732,
+      "boundary_counts": [
+        94.0,
+        94.0,
+        101.0,
+        101.0
+      ]
+    },
+    {
+      "index": 163,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_14.jpg",
+      "class_id": 8,
+      "intersection": 774,
+      "union": 878,
+      "foreground_iou": 0.8815489749429519,
+      "boundary_counts": [
+        97.0,
+        97.0,
+        100.0,
+        102.0
+      ]
+    },
+    {
+      "index": 164,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_15.jpg",
+      "class_id": 8,
+      "intersection": 770,
+      "union": 824,
+      "foreground_iou": 0.9344660194173623,
+      "boundary_counts": [
+        94.0,
+        94.0,
+        97.0,
+        97.0
+      ]
+    },
+    {
+      "index": 165,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_16.jpg",
+      "class_id": 8,
+      "intersection": 1025,
+      "union": 1062,
+      "foreground_iou": 0.9651600753294759,
+      "boundary_counts": [
+        109.0,
+        109.0,
+        110.0,
+        110.0
+      ]
+    },
+    {
+      "index": 166,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_17.jpg",
+      "class_id": 8,
+      "intersection": 1016,
+      "union": 1054,
+      "foreground_iou": 0.9639468690701173,
+      "boundary_counts": [
+        108.0,
+        108.0,
+        110.0,
+        110.0
+      ]
+    },
+    {
+      "index": 167,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_18.jpg",
+      "class_id": 8,
+      "intersection": 995,
+      "union": 1078,
+      "foreground_iou": 0.9230055658626231,
+      "boundary_counts": [
+        108.0,
+        108.0,
+        110.0,
+        110.0
+      ]
+    },
+    {
+      "index": 168,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_19.jpg",
+      "class_id": 8,
+      "intersection": 980,
+      "union": 1094,
+      "foreground_iou": 0.8957952468006494,
+      "boundary_counts": [
+        108.0,
+        108.0,
+        110.0,
+        110.0
+      ]
+    },
+    {
+      "index": 169,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_20.jpg",
+      "class_id": 8,
+      "intersection": 910,
+      "union": 943,
+      "foreground_iou": 0.9650053022268329,
+      "boundary_counts": [
+        102.0,
+        102.0,
+        102.0,
+        102.0
+      ]
+    },
+    {
+      "index": 170,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_21.jpg",
+      "class_id": 8,
+      "intersection": 916,
+      "union": 943,
+      "foreground_iou": 0.9713679745492076,
+      "boundary_counts": [
+        104.0,
+        104.0,
+        102.0,
+        102.0
+      ]
+    },
+    {
+      "index": 171,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_22.jpg",
+      "class_id": 8,
+      "intersection": 902,
+      "union": 958,
+      "foreground_iou": 0.9415448851773547,
+      "boundary_counts": [
+        103.0,
+        103.0,
+        102.0,
+        102.0
+      ]
+    },
+    {
+      "index": 172,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_23.jpg",
+      "class_id": 8,
+      "intersection": 868,
+      "union": 969,
+      "foreground_iou": 0.8957688338492367,
+      "boundary_counts": [
+        101.0,
+        101.0,
+        102.0,
+        102.0
+      ]
+    },
+    {
+      "index": 173,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_24.jpg",
+      "class_id": 8,
+      "intersection": 2293,
+      "union": 2446,
+      "foreground_iou": 0.9374488961569527,
+      "boundary_counts": [
+        236.0,
+        236.0,
+        230.0,
+        230.0
+      ]
+    },
+    {
+      "index": 174,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_25.jpg",
+      "class_id": 8,
+      "intersection": 2293,
+      "union": 2431,
+      "foreground_iou": 0.9432332373508456,
+      "boundary_counts": [
+        236.0,
+        236.0,
+        230.0,
+        230.0
+      ]
+    },
+    {
+      "index": 175,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_26.jpg",
+      "class_id": 8,
+      "intersection": 2291,
+      "union": 2449,
+      "foreground_iou": 0.9354838709677037,
+      "boundary_counts": [
+        236.0,
+        236.0,
+        230.0,
+        230.0
+      ]
+    },
+    {
+      "index": 176,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_27.jpg",
+      "class_id": 8,
+      "intersection": 2260,
+      "union": 2445,
+      "foreground_iou": 0.9243353783230706,
+      "boundary_counts": [
+        236.0,
+        236.0,
+        230.0,
+        230.0
+      ]
+    },
+    {
+      "index": 177,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_28.jpg",
+      "class_id": 8,
+      "intersection": 2220,
+      "union": 2464,
+      "foreground_iou": 0.9009740259739893,
+      "boundary_counts": [
+        232.0,
+        232.0,
+        230.0,
+        230.0
+      ]
+    },
+    {
+      "index": 178,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_29.jpg",
+      "class_id": 8,
+      "intersection": 1913,
+      "union": 2134,
+      "foreground_iou": 0.8964386129334163,
+      "boundary_counts": [
+        222.0,
+        222.0,
+        216.0,
+        216.0
+      ]
+    },
+    {
+      "index": 179,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_30.jpg",
+      "class_id": 8,
+      "intersection": 1913,
+      "union": 2133,
+      "foreground_iou": 0.8968588842006143,
+      "boundary_counts": [
+        225.0,
+        225.0,
+        216.0,
+        216.0
+      ]
+    },
+    {
+      "index": 180,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_31.jpg",
+      "class_id": 8,
+      "intersection": 1913,
+      "union": 2122,
+      "foreground_iou": 0.9015080113100423,
+      "boundary_counts": [
+        222.0,
+        222.0,
+        216.0,
+        216.0
+      ]
+    },
+    {
+      "index": 181,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_32.jpg",
+      "class_id": 8,
+      "intersection": 1909,
+      "union": 2105,
+      "foreground_iou": 0.9068883610450875,
+      "boundary_counts": [
+        223.0,
+        223.0,
+        216.0,
+        216.0
+      ]
+    },
+    {
+      "index": 182,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_33.jpg",
+      "class_id": 8,
+      "intersection": 1913,
+      "union": 2109,
+      "foreground_iou": 0.9070649596964956,
+      "boundary_counts": [
+        224.0,
+        224.0,
+        216.0,
+        216.0
+      ]
+    },
+    {
+      "index": 183,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_34.jpg",
+      "class_id": 8,
+      "intersection": 1891,
+      "union": 2066,
+      "foreground_iou": 0.9152952565343216,
+      "boundary_counts": [
+        220.0,
+        220.0,
+        214.0,
+        214.0
+      ]
+    },
+    {
+      "index": 184,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_35.jpg",
+      "class_id": 8,
+      "intersection": 1892,
+      "union": 2067,
+      "foreground_iou": 0.9153362360909088,
+      "boundary_counts": [
+        220.0,
+        220.0,
+        214.0,
+        214.0
+      ]
+    },
+    {
+      "index": 185,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_36.jpg",
+      "class_id": 8,
+      "intersection": 1892,
+      "union": 2063,
+      "foreground_iou": 0.9171110033930724,
+      "boundary_counts": [
+        222.0,
+        222.0,
+        214.0,
+        214.0
+      ]
+    },
+    {
+      "index": 186,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_37.jpg",
+      "class_id": 8,
+      "intersection": 1878,
+      "union": 2060,
+      "foreground_iou": 0.9116504854368489,
+      "boundary_counts": [
+        223.0,
+        223.0,
+        214.0,
+        214.0
+      ]
+    },
+    {
+      "index": 187,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_38.jpg",
+      "class_id": 8,
+      "intersection": 1882,
+      "union": 2032,
+      "foreground_iou": 0.9261811023621591,
+      "boundary_counts": [
+        219.0,
+        219.0,
+        214.0,
+        214.0
+      ]
+    },
+    {
+      "index": 188,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_39.jpg",
+      "class_id": 8,
+      "intersection": 2188,
+      "union": 2301,
+      "foreground_iou": 0.9508909169925706,
+      "boundary_counts": [
+        229.0,
+        229.0,
+        228.0,
+        228.0
+      ]
+    },
+    {
+      "index": 189,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_40.jpg",
+      "class_id": 8,
+      "intersection": 2062,
+      "union": 2190,
+      "foreground_iou": 0.9415525114154821,
+      "boundary_counts": [
+        226.0,
+        226.0,
+        227.0,
+        235.0
+      ]
+    },
+    {
+      "index": 190,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_41.jpg",
+      "class_id": 8,
+      "intersection": 2105,
+      "union": 2196,
+      "foreground_iou": 0.9585610200363862,
+      "boundary_counts": [
+        224.0,
+        224.0,
+        223.0,
+        223.0
+      ]
+    },
+    {
+      "index": 191,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_42.jpg",
+      "class_id": 8,
+      "intersection": 2098,
+      "union": 2198,
+      "foreground_iou": 0.9545040946314397,
+      "boundary_counts": [
+        224.0,
+        224.0,
+        223.0,
+        223.0
+      ]
+    },
+    {
+      "index": 192,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_43.jpg",
+      "class_id": 8,
+      "intersection": 2042,
+      "union": 2226,
+      "foreground_iou": 0.9173405211140648,
+      "boundary_counts": [
+        224.0,
+        224.0,
+        223.0,
+        223.0
+      ]
+    },
+    {
+      "index": 193,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_44.jpg",
+      "class_id": 8,
+      "intersection": 2019,
+      "union": 2217,
+      "foreground_iou": 0.9106901217861565,
+      "boundary_counts": [
+        221.0,
+        221.0,
+        223.0,
+        223.0
+      ]
+    },
+    {
+      "index": 194,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_45.jpg",
+      "class_id": 8,
+      "intersection": 2153,
+      "union": 2296,
+      "foreground_iou": 0.9377177700348024,
+      "boundary_counts": [
+        232.0,
+        232.0,
+        225.0,
+        225.0
+      ]
+    },
+    {
+      "index": 195,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_46.jpg",
+      "class_id": 8,
+      "intersection": 2150,
+      "union": 2265,
+      "foreground_iou": 0.9492273730683908,
+      "boundary_counts": [
+        226.0,
+        226.0,
+        224.0,
+        224.0
+      ]
+    },
+    {
+      "index": 196,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_47.jpg",
+      "class_id": 8,
+      "intersection": 2144,
+      "union": 2269,
+      "foreground_iou": 0.9449096518289579,
+      "boundary_counts": [
+        230.0,
+        230.0,
+        224.0,
+        224.0
+      ]
+    },
+    {
+      "index": 197,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_48.jpg",
+      "class_id": 8,
+      "intersection": 2107,
+      "union": 2317,
+      "foreground_iou": 0.9093655589123475,
+      "boundary_counts": [
+        227.0,
+        230.0,
+        221.0,
+        225.0
+      ]
+    },
+    {
+      "index": 198,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_49.jpg",
+      "class_id": 8,
+      "intersection": 2115,
+      "union": 2319,
+      "foreground_iou": 0.9120310478654199,
+      "boundary_counts": [
+        225.0,
+        228.0,
+        220.0,
+        224.0
+      ]
+    },
+    {
+      "index": 199,
+      "query": "/hy-tmp/ljh/Dataset/HDANet/FSSD-12/Steel_Pk/Images/Steel_Pk_50.jpg",
+      "class_id": 8,
+      "intersection": 2005,
+      "union": 2092,
+      "foreground_iou": 0.9584130019120001,
+      "boundary_counts": [
+        222.0,
+        222.0,
+        224.0,
+        224.0
+      ]
+    }
+  ],
+  "historical_selection_miou": 0.7437748650162852,
+  "selection_reeval_delta": 0.001843311643519585,
+  "spatial_gate_disabled": true,
+  "spectral_a_disabled": false,
+  "spectral_c_disabled": false
+}

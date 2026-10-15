@@ -1,0 +1,22 @@
+{
+  "epoch": 49,
+  "epoch_one_based": 50,
+  "time": 1791564109.816037,
+  "train_loss": 0.10769221713766455,
+  "val_loss": 0.17802438752725722,
+  "class_miou": 0.7437748650162852,
+  "fbiou": 0.8061139385231236,
+  "train_inputs_sha256": "23ea96cfb5e3443b643d1743f034ab309ce19b66a45591ec74c5e6637da7a742",
+  "val_inputs_sha256": "96bec3ba6d8204b0bc84dfcd9d68a86f6c873fbbf3bea574233416a856e2c704",
+  "train_augmented_sha256": null,
+  "losses": {
+    "seg": 0.06680583461187779,
+    "edge": 0.0,
+    "csh_boundary": 0.40886381790041926,
+    "counterfactual_seg": 0.0,
+    "counterfactual_kl": 0.0
+  },
+  "best_epoch": 49,
+  "best_class_miou": 0.7437748650162852,
+  "checkpoint": "/hy-tmp/lx/fssd12_b4_combinations_fold1_20261009/B4_G1/artifacts/train_epoch_49_0.7437748650162852.pth"
+}

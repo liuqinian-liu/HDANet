@@ -5,6 +5,8 @@ Details of the model training and testing procedures can be found in our previou
 FSSD-12 1-shot source-parameter rerun: [results/FSSD-12](./results/FSSD-12/README.md).
 Surface-4i 1-shot source-parameter rerun: [results/Surface-4i](./results/Surface-4i/README.md).
 
+FSSD-12 B4+G1 integrated code: [B4-G1.md](./B4-G1.md). Experiment results: [results/B4-G1](./results/B4-G1/README.md).
+
 @article{CPANet,
   title = {Cross Position Aggregation Network for Few-Shot Strip Steel Surface Defect Segmentation},
   author = {Feng, Hu and Song, Kechen and Cui, Wenqi and Zhang, Yiming and Yan, Yunhui},

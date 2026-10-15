@@ -1,0 +1,15 @@
+{
+  "arm": "B4_G1_fold0",
+  "state": "complete",
+  "gpu": 0,
+  "epochs_done": 200,
+  "started_at": "2026-10-10T15:58:12.610185+00:00",
+  "heartbeat": "2026-10-10T17:22:42.829324+00:00",
+  "process_pid": 1824361,
+  "stage_started": "2026-10-10T17:22:12.813889+00:00",
+  "exit_code": 0,
+  "best_epoch": 133,
+  "best_class_miou": 0.7442255095254635,
+  "completed_at": "2026-10-10T17:22:42.829313+00:00",
+  "class_miou": 0.7442255095254633
+}

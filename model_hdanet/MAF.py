@@ -80,6 +80,8 @@ class MAF(nn.Module):
         x = self.res1(x)
         x = self.res2(x)
         s1 = F.relu(self.cbam(x) + x)
+        if hasattr(self, 'spatial_gate'):
+            s1 = self.spatial_gate(s1, x3)
         x_size = s1.size()
         b, c, h, w = int(x_size[0]), int(x_size[1]), int(x_size[2]), int(x_size[3])
         branch_3 = self.conv_3_1(self.conv_1_3(s1))

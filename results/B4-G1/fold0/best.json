@@ -1,0 +1,19 @@
+{
+  "epoch": 133,
+  "epoch_one_based": 134,
+  "time": 1791651251.3344567,
+  "train_loss": 0.09100557108875364,
+  "val_loss": 0.08732609179802239,
+  "class_miou": 0.7442255095254635,
+  "fbiou": 0.8552456337663621,
+  "train_inputs_sha256": "3b2ffb7a99c90223181c12d0e561504cfe545c7951751dca53d0e35cd2c34562",
+  "val_inputs_sha256": "d376394a45d10c47379cbc3d67dc28b5a5ca76638016a77c1d13675449a66705",
+  "losses": {
+    "seg": 0.054884586511179806,
+    "edge": 0.0,
+    "csh_boundary": 0.3612098367512226
+  },
+  "best_epoch": 133,
+  "best_class_miou": 0.7442255095254635,
+  "checkpoint": "/hy-tmp/lx/fssd12_b4_m2_g1_three_arm_20261010/B4_G1_fold0/artifacts/train_epoch_133_0.7442255095254635.pth"
+}

@@ -65,7 +65,7 @@ def generate_prior_proto(query_feat_high, final_supp_list, mask_list, fts_size,w
     corr_min_val = torch.min(corr)
     corr_max_val = torch.max(corr)
 
-    corr = (corr-corr_min_val)/(corr_max_val-corr_min_val)
+    corr = (corr-corr_min_val)/(corr_max_val-corr_min_val).clamp_min(1e-7)
     fg_corr = (weight_soft * fg_corr).sum(1, True)
     corr = (weight_soft * corr).sum(1, True)
     prior = torch.cat([fg_corr, corr], dim=1)
