@@ -18,7 +18,7 @@
         "audit.json": "9d8e5bbaad6c8c782b19730bf08e3c78c2535e98b92cadfcb7280d8dc98527bc",
         "preflight.json": "ff97952c6b101ccacf0def40dbb7b69745c14a6111202eae235d2ef16eb7b201",
         "status.json": "401edd48415d6a9e3221d80c2a91b1cf3c02f0dee3bc2ff9ccfa779e5e21600b",
-        "source_config.yaml": "6e98d63d3231c328f3b3c9a7f050a8bc763eb83ea9de351949ebc58bc976b04d"
+        "source_config.yaml": "6c6443f6b349d896087d705aa851686f5ee338fe8817064f3cfa90b88518b85b"
       },
       "best_epoch_zero_based": 133,
       "best_checkpoint_filename": "train_epoch_133_0.7442255095254635.pth",
@@ -36,7 +36,7 @@
         "evaluation.json": "37153929b318ec7d831a1fb6afae2a6fc5c5bf8d1d8bbe05f0427796d18a70ce",
         "evaluation_gate_off.json": "5354da6dfc78197629e6b3aedcf97f85695b189525c92042cf498a0d1108ff5a",
         "epochs.jsonl": "c10d5009f4674dd92d6c1a77bc4faf4ebb9168456f8d7ed3095314b3973cb0c1",
-        "source_config.yaml": "2e8770c9db93321f645e6747aed45ed8623a2a913a2da21388ec2474949d193b"
+        "source_config.yaml": "795da1607a49920447cbb85e78dd5c4efe5ec4669fe073b037971c0095b2e00e"
       },
       "best_epoch_zero_based": 49,
       "best_checkpoint_filename": "train_epoch_49_0.7437748650162852.pth",
@@ -57,7 +57,7 @@
         "audit.json": "8babc1498bdd527f5a4a4dad368845fcadb07b5987dae3705382c1a8fd10c46d",
         "preflight.json": "176d88ac7979822d3212c973d4211bdd95e69556d0a80d68b06868c87a888377",
         "status.json": "9e76427f6484e80cc6f1abf68e55c25eb257278555c320849aec7c1cb8fa0cd2",
-        "source_config.yaml": "08ed6c7e3319148740210e1ae5913ee2599296b4c05fc85bf30e71c8b46e4b1b"
+        "source_config.yaml": "1fbf37796e26edbb4f3cef703ca98739770ede9edcb5f323dc3a738504dfa355"
       },
       "best_epoch_zero_based": 128,
       "best_checkpoint_filename": "train_epoch_128_0.6590136250411615.pth",
