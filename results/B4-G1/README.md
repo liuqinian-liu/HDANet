@@ -10,6 +10,14 @@ These are the three completed B4+G1 combination experiments. Each fold was train
 
 The three-fold mean class mIoU is 71.5671%. The checkpoint for each fold was selected on its validation set and then reevaluated on the same validation episodes. These are not independent test results. The G1-off values are inference diagnostics on the same checkpoint, not retrained baselines. No multiple-seed B4+G1 result is claimed.
 
-Each `fold*` directory contains the original source configuration, best-checkpoint record, training epoch history, full per-image evaluation JSON for G1 on and off, and the available audit/preflight/status records. Paths inside these original records refer to the training server. The corresponding archive in [Release](https://github.com/liuqinian-liu/HDANet/releases/tag/b4-g1-fssd12-seed2025-2026-10) contains the exact original fold directory, including both the best and recovery checkpoints, TensorBoard events, training/evaluation logs, and preview images. Archive size and SHA-256 are in [manifest.json](manifest.json).
+Each `fold*` directory contains the source configuration, best-checkpoint record, training epoch history, full per-image evaluation JSON for G1 on and off, and the available audit/preflight/status records. Paths inside these original records refer to the training server. The corresponding archive in [Release](https://github.com/liuqinian-liu/HDANet/releases/tag/b4-g1-fssd12-seed2025-2026-10) contains the original result files, including both best and recovery checkpoints, TensorBoard events, logs, and preview images. The absolute `initmodel` symlink was omitted so the archive is portable. Archive size and SHA-256 are in [manifest.json](manifest.json).
+
+GitHub upload limits required splitting each fold archive into 64 MiB parts. Download every `.partNN` asset for the desired fold into one directory, then restore and verify:
+
+```bash
+python results/restore_checkpoints.py results/B4-G1/archive_parts.json DOWNLOAD_DIR OUTPUT_DIR
+```
+
+The restoration script checks every part and the complete archive. Part names, sizes, and SHA-256 values are in [archive_parts.json](archive_parts.json) and [SHA256SUMS.parts.txt](SHA256SUMS.parts.txt). Extract the restored `.tar.gz` only after verification.
 
 The integrated runnable code and three adjusted configurations are documented in [B4-G1.md](../../B4-G1.md). The archive names, source directory paths, and fold IDs are checked before upload to keep these results separate from B4-only, G1-only, B4+M2, B4+A, B4+C, and later combinations.
